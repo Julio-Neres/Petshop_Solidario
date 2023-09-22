@@ -28,7 +28,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-weight: bold;
-     color: #FDF106;
+     color: #ffffff;
 }
 
 body {
@@ -91,4 +91,49 @@ body {
     display:flex;
     justify-content: space-around;
     margin: 60px;
+}
+
+.texto_doação {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height: 180px;
+}
+
+.intro_adoção{
+    
+    color: rgb(249, 249, 249);
+    font: 10px;
+    text-indent: 20px; 
+    text-align: center;
+    background: #E54AE7;
+    /* quadrado1 */
+
+    position: absolute;
+    width: 420px;
+    height: 205px;
+    left: 390px;
+    top: 170px;
+    
+    background: #E54AE7;
+    border-radius: 30px;  
+}
+
+.intro_adoção2 {
+    color: #ffffff;
+    font: 80px;
+    text-indent: 20px;
+    text-align: center;
+
+    /* quadrado2 */
+
+    position: absolute;
+    width: 413px;
+    height: 215px;
+    left: 540px;
+    top: 350px;
+
+    background: #E54AE7;
+    border-radius: 30px;
+
 }
