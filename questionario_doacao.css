@@ -3,19 +3,18 @@ header {
     justify-content: space-around;
     align-items: end;
     background: linear-gradient(180deg, #E54AE8 36.25%, rgba(229, 74, 232, 0) 100%);
-    padding: 10px 0;
-
-   
+    padding: 10px 0; 
 }
 
-#pesquisas{
-    float: center;
-}
+
 ul {
     list-style: none;
 }
 
-nav ul {
+#formulario{
+    display: block;
+}
+ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -24,7 +23,10 @@ nav ul {
 
 }
 
-
+#confirmar{
+    display: block;
+    justify-content: end;
+}
 nav li {
     margin: 0 35px;
     margin-top: -35px;
@@ -44,13 +46,8 @@ nav a {
      color: #ffffff;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #B431B6;
-    color: #ffffff
-}
+
+
 
 #ientrarcadastrar{
     border:8px solid #7d0180;
@@ -83,3 +80,14 @@ body {
     left: 1100px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #B431B6;
+    color: #ffffff
+}
+
+#confirmar{
+    margin-top: 20px;
+}

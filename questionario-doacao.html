@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questionário de doação</title>
-    <link rel="stylesheet" href="questionario_adoção.css">
+    <link rel="stylesheet" href="questionario_doacao.css">
 </head>
 <body>
     <header>
@@ -17,12 +17,14 @@
                 <li><a href="/Adoção Responsavel.html">Blog</a></li>
                 <li><a href="/doações.html">Doações</a></li>
                 <li><a id="ientrarcadastrar" href="/formulario-cadastro.html">Entrar | Cadastre-se</a></li>
-                </ul>
-            </header>
+            </ul> 
+            </nav>   
+            
+      </header>
             <div id="pesquisas">
             <input  type="search" placeholder="Digite aqui sua pesquisa"></li>
             <button onclick="realizarpesquisa()">Pesquisar</button></div>
-        </nav>
+        
       
         <div class="container"> 
             <img src="/imagens/patinhas.png" alt="" id="patinhas">
@@ -30,7 +32,7 @@
             <img src="/imagens/patinhas.png" alt="" id="patinhas2">
         <h1> Questionário de adoção</h1>
     <form action="" autocomplete="off">
-        <ul>
+        <ul id="formulario">
         <li><p> <label for="inomecompleto">1- Nome completo:</label>
               <input type="text" name="nomecompleto" id="inomecompleto"> </p> </li>
 
@@ -88,7 +90,7 @@
             <input type="text" name="veterinario" id="iveterinario"></p></li>
         <li><p><label for="ifinanceiro">26- Você tem condições financeiras de levar o animal ao veterinário uma vez ao ano ou sempre que necessário?</label>
             <input type="text" name="financeiro" id="ifinanceiro"></p></li>
-        <li><p><label for="iabrirmao">27- Você já teve que abrir mão de algum animal que criava?</label>´
+        <li><p><label for="iabrirmao">27- Você ja teve que abrir mão de algum animal que criava?</label>´
             <input type="text" name="abrirmao" id="iabrirmao"></p></li>
         <li><p><label for="icircustanciaabrirmao">28- Se sim em que circunstâncias?</label>
             <input type="text" name="circunstanciaabrirmao" id="icircustanciaabrirmao"></p></li>
@@ -104,17 +106,14 @@
         <form action="" method="get"></form>
         <p id="ideclaracao">Eu  declaro que as afirmações por mim descritas são verdadeiras e tenho conhecimento de que as informações aqui fornecidas, bem como meus dados pessoais, não serão utilizados para fins pessoais ou mercadológicos.
             <input type="checkbox">
-    <p> 
-    </p>
-    <input type="submit" value="Enviar">
-</div>
-   
-    
+        </p>
+        
+        <input id="confirmar" type="submit" value="Enviar">
+
+</div> 
 </body>
-</html>
-<body>
-    
-</body>
+
+
 
 <footer>
     
