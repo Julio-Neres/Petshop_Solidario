@@ -1,153 +1,311 @@
-    * {
-    padding: 0;
-    margin: 0;
-    }
+* {
+   padding: 0;
+   margin: 0;
+   }
 
-    body {
-    width: 100%;
-    height: 1920px;
-    background-color: #B431B6;
-    }
+   body {
+   width: 100%;
+   height: 1920px;
+   background-color: #B431B6;
+   }
 
-    /* fontes utilizadas no site */
+   /* fontes utilizadas no site */
 
-    @font-face {
-    font-family: 'JockeyOne';
-    src: url('./fonts/JockeyOne-Regular.ttf') format('truetype');
+   @font-face {
+   font-family: 'JockeyOne';
+   src: url('./fonts/JockeyOne-Regular.ttf') format('truetype');
 
-    }
+   }
 
-    @font-face {
-    font-family: 'Jomhuria';
-    src: url('./fonts/Jomhuria-Regular.ttf') format('truetype');
+   @font-face {
+   font-family: 'Jomhuria';
+   src: url('./fonts/Jomhuria-Regular.ttf') format('truetype');
 
-    }
+   }
 
- /* responsivo */
+/* responsivo */
 
- @media screen and (max-width: 1080px) and (min-width: 1920px) {
-    /* telas grandes */
- }
-
- @media screen and (max-width:1792px) and (min-width:828px) {
-    /* telas pequenas */
- }
-
- /* fim do responsivo */
-
- /* inicio header logo e menu */
-
- .container-menu {
-
-    width: 100%;
-
-    height: 80px;
-
-    background-image: linear-gradient(#E54AE8, transparent);
-
-    display: flex;
-
-    justify-content: space-between;
-    
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    }
-
-    .container-menu img {
-
-    display: flex;
-
-    width: 177px;
-
-    height: 63px;
-
-    margin-left: 20px;
-
-    }
-
-    .container-menu ul {
-
-    display: flex;
-
-    list-style: none;
-
-    flex-wrap: wrap;
-
-    }
-
-    .container-menu ul li a {
-    
-    display: block;
-    
-    text-decoration: none;
-    font-weight: bold;
-     color: #FDF106;
-     
-
-
+@media screen and (max-width: 1080px) and (min-width: 1920px) {
+   /* telas grandes */
 }
 
-.BANNER {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 75px;
-    padding: 0 40px;
+@media screen and (max-width:1792px) and (min-width:828px) {
+   /* telas pequenas */
 }
 
-.Blog {
+/* fim do responsivo */
 
-    position:absolute
-    width: 81px;
+/* inicio header logo e menu */
 
-    height: 25px;
+.container-menu {
 
-    background-color: #EBD0AA;
+   width: 100%;
 
-    display: flex;
+   height: 80px;
 
-    border-radius: 30px;
+   background-image: linear-gradient(#E54AE8, transparent);
 
-    font-family: 'JockeyOne';
+   display: flex;
 
-    justify-content: center;
+   justify-content: space-between;
+   
+   align-items: center;
 
-    align-items: center;
+   flex-wrap: wrap;
 
-    margin: -14px 0 0 50%;
+   }
 
-    }
+   .container-menu img {
 
-<<<<<<< HEAD
-.animais_disponiveis {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-    
-}
+   display: flex;
 
+   width: 177px;
 
-.cards_animais_disponiveis { 
-    display: inline-flex;
-    flex-direction:column;
-    align-items:center;
-    color: white;
-    font-size: 28px;
-    background-color: #E54AE8;
-    width: 400px;
-    height: 210px;
-    border-radius:30px ;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-=======
-    .class-blog-space p {
-    
-    margin: 4px 10px 5px 5px;
-    }
->>>>>>> 93404045a15d831fbb87bb7839f1d7d3ae6166d5
+   height: 63px;
+
+   margin-left: 20px;
+
+   }
+
+   .container-menu ul {
+
+   display: flex;
+
+   list-style: none;
+
+   flex-wrap: wrap;
+
+   }
+
+   .container-menu ul li a {
+   
+   display: block;
+   
+   text-decoration: none;
+
+   color: white;
+
+   margin-left: 28px;
+
+   padding: 10px 20px 10px 20px;
+
+   font-family: 'JockeyOne';
+
+   }
+
+   /* estilizando botão de login e cadastre-se */
+
+       .btn-login {
+       
+       width: 191px;
+
+       height: 45px;
+
+       display: flex;
+
+       background-color: #7D0180;
+
+       border-radius: 30px;
+
+       justify-content: center;
+
+       align-items: center;
+
+       margin-right: 20px;
+
+       }
+
+       .btn-login p a{
+       
+       color: white;
+
+       text-decoration: none;
+
+       font-family: 'JockeyOne';
+
+       }
+
+          /* section geral */
+
+           section {
+
+           display: flex;
+
+           justify-content: center;
+
+           align-items: center;
+
+           margin: 10px 20px 10px 20px;
+           
+           }
+
+          /* highlights-store */
+
+           .highlights-store {
+
+           display: flex;
+
+           width: 1920px auto;
+
+           height: 288px;
+
+           justify-content: center;
+
+           background-image: linear-gradient(#F843FC, #F843FC, 70%, transparent);
+
+           border-radius: 30px;
+
+           align-items: center;
+
+           }
+
+           .highlights-store p {
+
+           display: flex;
+
+           font-family: 'Jomhuria';
+
+           color: white;
+           
+           }
+
+           .highlights-store .inicio {
+           
+           width: 166px;
+
+           height: 59px;
+
+           color: #FDF106;
+
+           font-size: 130px;
+
+           margin-left: 213px;
+
+           margin-bottom: 91px;
+
+           -webkit-text-stroke-width: 1px;
+
+           -webkit-text-stroke-color: black;
+
+           }
+
+           .highlights-store .meio {
+           
+           width: 130px;
+
+           height: 16px;
+
+           font-size: 30px;
+
+           color: #E2A746;
+
+           -webkit-text-stroke-width: 0.5px;
+
+           -webkit-text-stroke-color: black;
+
+           margin: 23px -10px 4px -145px;
+           
+           }
+
+           .highlights-store .fim {
+           
+           width: 300px;
+
+           height: 59px;
+
+           font-size: 120px;
+
+           color: #FDF106;
+
+           -webkit-text-stroke-width: 1px;
+
+           -webkit-text-stroke-color: black;
+
+           margin: 57px 27px 17px -166px;
+
+           }
+
+           .highlights-store .food1 {
+           
+           width: 140px;
+
+           height: 85px;
+
+           transform: rotate(310deg);
+
+           margin: 70px 0 0 -460px;
+
+           filter: blur(1px);
+
+           }
+
+           .highlights-store .food2 {
+           
+           width: 140px;
+   
+           height: 85px;
+
+           transform: rotate(25deg);
+
+           margin: 70px 0 0 215px;
+
+           filter: blur(1px);
+   
+           }
+
+           .highlights-store .catanddog {
+           
+           width: 310px;
+
+           height: 250px;
+
+           margin: 20px 0 9px 539px;
+
+           border-radius: 30px;
+
+           }
+
+   /* content-blog */
+
+   .space-content-blog {
+   
+   width: 1920px auto ;
+
+   height: 300px;
+
+   background-image: linear-gradient(#B431B6, #E54AE8);
+
+   border-radius: 30px;
+
+   border: 2px solid red;
+
+   margin: 50px 20px 50px 20px;
+
+   }
+
+   .class-blog-space {
+
+   width: 81px;
+
+   height: 25px;
+
+   background-color: #EBD0AA;
+
+   display: flex;
+
+   border-radius: 30px;
+
+   font-family: 'JockeyOne';
+
+   justify-content: center;
+
+   align-items: center;
+
+   margin: -14px 0 0 50%;
+
+   }
+
+   .class-blog-space p {
+   
+   margin: 4px 10px 5px 5px;
+   }
