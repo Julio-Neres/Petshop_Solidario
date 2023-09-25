@@ -93,47 +93,27 @@ body {
     margin: 60px;
 }
 
-.texto_doação {
-    color: rgb(255, 255, 255);
-    text-align: center;
+.animais_disponiveis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
     font-family: Arial, sans-serif;
-    height: 180px;
-}
-
-.intro_adoção{
-    
-    color: rgb(249, 249, 249);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-     
-    text-align: flex;
-    background: #E54AE7;
-    /* quadrado1 */
-
-    position: absolute;
-    width: 440px;
-    height: 200px;
-    left: 400px;
-    top: 180px;
-    background: #E54AE7;
-    border-radius: 30px;  
-}
-
-.intro_adoção2 {
-    color: rgb(249, 249, 249);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    /* quadrado2 */
-
-    position: absolute;
-    width: 445px;
-    height: 180px;
-    left: 580px;
-    top: 345px;
-    background: #E54AE7;
-    border-radius: 30px;  
- 
+    
 }
 
 
-
+.cards_animais_disponiveis { 
+    display: inline-flex;
+    flex-direction:column;
+    align-items:center;
+    color: white;
+    font-size: 28px;
+    background-color: #E54AE8;
+    width: 400px;
+    height: 210px;
+    border-radius:30px ;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
