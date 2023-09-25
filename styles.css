@@ -1,22 +1,26 @@
-* {
+    * {
     padding: 0;
     margin: 0;
-}
+    }
 
-body {
+    body {
     width: 100%;
     height: 1920px;
     background-color: #B431B6;
-}
+    }
 
     /* fontes utilizadas no site */
 
     @font-face {
-        font-family: 'JockeyOne';
-        src: url(./fonts/JockeyOne-Regular.ttf) format(Truetype);
+    font-family: 'JockeyOne';
+    src: url('./fonts/JockeyOne-Regular.ttf') format('truetype');
 
-        font-family: 'Jomhuria';
-        src: url(./fonts/Jomhuria-Regular.ttf) format(Truetype);
+    }
+
+    @font-face {
+    font-family: 'Jomhuria';
+    src: url('./fonts/Jomhuria-Regular.ttf') format('truetype');
+
     }
 
  /* responsivo */
@@ -25,7 +29,7 @@ body {
     /* telas grandes */
  }
 
- @media screen and (max-width:) and (min-width:) {
+ @media screen and (max-width:1792px) and (min-width:828px) {
     /* telas pequenas */
  }
 
@@ -59,7 +63,8 @@ body {
 
     height: 63px;
 
-    margin-left: 10px;
+    margin-left: 20px;
+
     }
 
     .container-menu ul {
@@ -73,7 +78,7 @@ body {
     }
 
     .container-menu ul li a {
-
+    
     display: block;
     
     text-decoration: none;
@@ -84,4 +89,223 @@ body {
 
     padding: 10px 20px 10px 20px;
 
+    font-family: 'JockeyOne';
+
+    }
+
+    /* estilizando botão de login e cadastre-se */
+
+        .btn-login {
+        
+        width: 191px;
+
+        height: 45px;
+
+        display: flex;
+
+        background-color: #7D0180;
+
+        border-radius: 30px;
+
+        justify-content: center;
+
+        align-items: center;
+
+        margin-right: 20px;
+
+        }
+
+        .btn-login p a{
+        
+        color: white;
+
+        text-decoration: none;
+
+        font-family: 'JockeyOne';
+
+        }
+
+           /* section geral */
+
+            section {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            margin: 10px 20px 10px 20px;
+            
+            }
+
+           /* highlights-store */
+
+            .highlights-store {
+
+            display: flex;
+
+            width: 1920px auto;
+
+            height: 288px;
+
+            justify-content: center;
+
+            background-image: linear-gradient(#F843FC, #F843FC, 70%, transparent);
+
+            border-radius: 30px;
+
+            align-items: center;
+
+            }
+
+            .highlights-store p {
+
+            display: flex;
+
+            font-family: 'Jomhuria';
+
+            color: white;
+            
+            }
+
+            .highlights-store .inicio {
+            
+            width: 166px;
+
+            height: 59px;
+
+            color: #FDF106;
+
+            font-size: 130px;
+
+            margin-left: 213px;
+
+            margin-bottom: 91px;
+
+            -webkit-text-stroke-width: 1px;
+
+            -webkit-text-stroke-color: black;
+
+            }
+
+            .highlights-store .meio {
+            
+            width: 130px;
+
+            height: 16px;
+
+            font-size: 30px;
+
+            color: #E2A746;
+
+            -webkit-text-stroke-width: 0.5px;
+
+            -webkit-text-stroke-color: black;
+
+            margin: 23px -10px 4px -145px;
+            
+            }
+
+            .highlights-store .fim {
+            
+            width: 300px;
+
+            height: 59px;
+
+            font-size: 120px;
+
+            color: #FDF106;
+
+            -webkit-text-stroke-width: 1px;
+
+            -webkit-text-stroke-color: black;
+
+            margin: 57px 27px 17px -166px;
+
+            }
+
+            .highlights-store .food1 {
+            
+            width: 140px;
+
+            height: 85px;
+
+            transform: rotate(310deg);
+
+            margin: 70px 0 0 -460px;
+
+            filter: blur(1px);
+
+            }
+
+            .highlights-store .food2 {
+            
+            width: 140px;
+    
+            height: 85px;
+
+            transform: rotate(25deg);
+
+            margin: 70px 0 0 215px;
+
+            filter: blur(1px);
+    
+            }
+
+            .highlights-store .catanddog {
+            
+            width: 310px;
+
+            height: 250px;
+
+            margin: 20px 0 9px 539px;
+
+            border-radius: 30px;
+
+            }
+
+    /* content-blog */
+
+    .space-content-blog {
+    
+    width: 1920px auto ;
+
+    height: 300px;
+
+    background-image: linear-gradient(#B431B6, #E54AE8);
+
+    border-radius: 30px;
+
+    border: 2px solid red;
+
+    margin: 50px 20px 50px 20px;
+
+    }
+
+    .class-blog-space {
+
+    width: 81px;
+
+    height: 25px;
+
+    background-color: #EBD0AA;
+
+    display: flex;
+
+    border-radius: 30px;
+
+    font-family: 'JockeyOne';
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: -14px 0 0 50%;
+
+    }
+
+    .class-blog-space p {
+    
+    margin: 4px 10px 5px 5px;
     }
