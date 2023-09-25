@@ -8,22 +8,26 @@
 </head>
 <body>
     <header>
-        <img src="./imagens/LOGO QUATRO PATAS.png" alt="Logo" width="177" height="68">
-        <nav>
+       
+        <img id="logo" src="./imagens/LOGO QUATRO PATAS.png" alt="Logo" id="logo">
+       
+            <nav id=cabeçalho>
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/ProdutosGatos.html">Gato</a></li>
-                <li><a href="/ProdutosCachorro.html">Cachorro</a></li>
-                <li><a href="/Adoção Responsavel.html">Blog</a></li>
-                <li><a href="/doações.html">Doações</a></li>
-            </ul>
-        </nav> 
-        <div class="cadastro">
-            <a href="#">
-                <img src="./imagens/Rectangle 12.png" alt="Cadastre-se">
-            </a>
-        </div>
-    </header>
+            <li><a target="_blank" href="/index.html">Home</a></li>
+            <li><a target="_blank" href="/ProdutosGatos.html">Gato</a></li>
+            <li><a target="_blank" href="/ProdutosCachorro.html">Cachorro</a></li>
+            <li><a target="_blank" href="/Quatro_patinhas/blog.html">Blog</a></li>
+            <li><a target="_blank" href="/doações.html">Doações</a></li>
+            <li><a target="_blank" id="ientrarcadastrar" href="/formulario-cadastro.html">Entrar | Cadastre-se</a></li>
+            
+        </ul> 
+        </nav>   
+        
+  </header>
+        <nav class="pesquisas">
+        <input  type="search" placeholder="Digite aqui sua pesquisa">
+        <button onclick="realizarpesquisa()">Pesquisar</button>
+        
     <main>
         <div class="texto_doação">
             <h1>Animais disponíveis para doação</h1>
@@ -39,10 +43,10 @@
             </div>
             <div class="intro_adoção2">
                     <pre>
- Caso tenha interesse é só dar 
- like na foto do animal que você 
+ Caso tenha interesse é só 
+ clicar no link abaixo que você
  será redirecionado para um 
- formulário inicial de adoção.
+ <a target="_blank" href="/Quatro_patinhas/questionario-doacao.html">formulário inicial de adoção.</a>
                     </pre>
 
             </div>
