@@ -32,25 +32,7 @@ body {
 }
 
 
-#formulario li {
-    margin-bottom: 20px; 
-}
 
-
-#formulario label {
-    font-weight: bold;
-}
-
-
-#formulario input[type="text"],
-#formulario input[type="number"],
-#formulario textarea {
-    width: 100%; 
-    padding: 8px;
-    margin-top: 4px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 
 
 #confirmar {

@@ -6,14 +6,27 @@ header {
     padding: 10px 0; 
 }
 
+#cabeçalho { 
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    list-style: none;
+    padding: 10px 0; 
+}
+
+
 
 ul {
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-#formulario{
-    display: block;
-}
+
+
 ul {
     list-style: none;
     display: flex;
@@ -89,5 +102,22 @@ body {
 }
 
 #confirmar{
+    margin-top: 20px;
+}
+
+
+#formulario ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#formulario li {
+    margin-bottom: 20px;
+    max-width: 400px; 
+}
+
+#formulario ul {
+    list-style: none;
+    padding: 0;
     margin-top: 20px;
 }
