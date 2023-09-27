@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    background: linear-gradient(180deg, #E54AE8 36.25%, rgba(229, 74, 232, 0) 100%);
+    padding: 10px 0; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+#formulario{
+    display: block;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, #E54AE8 36.25%, rgba(229, 74, 232, 0) 100%);
+
+}
+
+#confirmar{
+    display: block;
+    justify-content: end;
+}
+nav li {
+    margin: 0 35px;
+    margin-top: -35px;
+    
+}
+h1 {
+    display: flex;
+    justify-content: center;    
+}
+a:hover{
+    color: black;
+}
+nav a {
+    
+    text-decoration: none;
+    font-weight: bold;
+     color: #ffffff;
+}
+
+
+
+
+#ientrarcadastrar{
+    border:8px solid #7d0180;
+    background-color: #7d0180;
+    border-radius: 12px;
+  
+}
+#ideclaracao{
+    margin: 0 40px;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+
+}
+#patinhas{
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+}
+#patinhas1{
+    position: absolute;
+    top: 500px;
+    left: 1100px;
+}
+#patinhas2{
+    position: absolute;
+    top: 880px;
+    left: 1100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #B431B6;
+    color: #ffffff
+}
+
+#confirmar{
+    margin-top: 20px;
+}
