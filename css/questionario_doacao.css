@@ -106,18 +106,21 @@ body {
 }
 
 
-#formulario ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-#formulario li {
-    margin-bottom: 20px;
-    max-width: 400px; 
+
+
+
+#formulario input {
+    display: inline-block;
+    width:30%;
+    margin-right: 10%;
 }
 
-#formulario ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
+#formulario label {
+    display: inline-block; 
+    text-align: right;
+    width:40%;
+  
+    line-height: 40px; /* Mantenha a mesma altura para alinhar verticalmente o texto */
+    margin-right: 2%;
+    
 }
