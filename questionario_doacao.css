@@ -10,7 +10,11 @@ header {
 ul {
     list-style: none;
 }
-
+.pesquisas{
+    
+    text-align: center;
+    
+}
 #formulario{
     display: block;
 }
