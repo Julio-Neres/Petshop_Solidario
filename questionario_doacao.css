@@ -6,18 +6,27 @@ header {
     padding: 10px 0; 
 }
 
+#cabeçalho { 
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    list-style: none;
+    padding: 10px 0; 
+}
+
+
 
 ul {
     list-style: none;
-}
-.pesquisas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
-    text-align: center;
-    
 }
-#formulario{
-    display: block;
-}
+
+
+
 ul {
     list-style: none;
     display: flex;
@@ -68,10 +77,18 @@ nav a {
     max-width: 100%;
 
 }
+#gato{
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    width: 100px;
+    height: 200px;
+}
 #patinhas{
     position: absolute;
     top: 100px;
     left: 1100px;
+    
 }
 #patinhas1{
     position: absolute;
@@ -84,6 +101,14 @@ nav a {
     left: 1100px;
 }
 
+#cachorro{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 130px;
+    
+}
 body {
     margin: 0;
     padding: 0;
@@ -94,4 +119,46 @@ body {
 
 #confirmar{
     margin-top: 20px;
+}
+
+
+.pesquisas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+#formulario input {
+    display: inline-block;
+    width:30%;
+    margin-right: 10%;
+}
+
+#formulario label {
+    display: inline-block; 
+    text-align: right;
+    width:40%;
+  
+    line-height: 40px; /* Mantenha a mesma altura para alinhar verticalmente o texto */
+    margin-right: 2%;
+    
+}
+
+.botao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#iconfirmar {
+    border: 8px solid #7d0180;
+    background-color: #7d0180;
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
