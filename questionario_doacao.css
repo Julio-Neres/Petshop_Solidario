@@ -32,7 +32,7 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(180deg, #E54AE8 36.25%, rgba(229, 74, 232, 0) 100%);
+   
 
 }
 
@@ -141,7 +141,7 @@ body {
     text-align: right;
     width:40%;
   
-    line-height: 40px; /* Mantenha a mesma altura para alinhar verticalmente o texto */
+    line-height: 40px; 
     margin-right: 2%;
     
 }
@@ -162,3 +162,127 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+.footer {
+    background-color: #d411ea;
+    width: 1266px;
+    height: 84px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+.footer-images img {
+    margin: 25px 85px; 
+}
+
+
+.footer-2 {
+    background-color: #b442e7;
+    width: 1266px;
+    height: 84px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    border-radius: 15px;
+    padding: 7px
+}
+
+.footer-2 img {
+padding-top: 18px;
+  margin-right: 85px;
+}
+
+.footer-2 input[type="email"] {
+    width: 20%;
+    height: 30px;
+    margin-left: 100px;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 16px;
+    background: white;
+    color: #CD3EFF;
+}
+
+.inscricao-button {
+    background-color: #292D32;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    color: #ffffff;
+    width: 1266px;
+    height: 207px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    border-radius: 15px;
+    padding: 7px
+}
+
+.footer-content img {
+    margin: 5px; 
+}
+
+.footer-content p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 30px;
+    text-align: left;
+    flex: 1;
+}
+
+.footer-content ul {
+    text-align: left;
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.footer-content ul li {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.line1 {
+    position: absolute;
+    width: 1140px;
+    height: 0px;
+    left: 104px;
+    top: 1990px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.ajustandofooter{
+    display: block;
+
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
