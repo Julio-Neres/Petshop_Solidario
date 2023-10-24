@@ -286,12 +286,13 @@ nav a {
 .pesquisas{
     display: flex;
     text-align: center;
-    justify-content: center;´
+    justify-content: center;
     
     
 }
 
 #icadastroadotar{
+    text-decoration: none;
     border: 8 px: solid #7d0180;
     background-color: #7d0180;
     border-radius: 12px;

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* inicio header logo e menu */
+
 header {
     display: flex;
     margin-bottom: 35px;
@@ -19,7 +19,21 @@ header {
     
     
 }
+#adotar{
+   
+    width:12%;
+    color: #fff;
+    border:8px solid #7d0180;
+    background-color: #7d0180;
+    border-radius: 12px;
+    align-items: center;
+  
+}
 
+#adotar a {
+    text-decoration: none;
+    color: #fff;
+}
 .container-menu img {
     display: flex;
     width: 177px;
