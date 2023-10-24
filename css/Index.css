@@ -468,7 +468,6 @@ body, html {
    flex-direction: column;
    align-items: center; 
    justify-content: center;
-   border: 2px solid red;
    margin: 2px auto;
    background-image: linear-gradient(#8004F7, #F700AE, #F70143, #F6AD00)
 
