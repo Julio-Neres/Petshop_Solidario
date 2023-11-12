@@ -317,7 +317,22 @@ pre#adocaoresponsavel{
         white-space: pre-wrap; 
     }
     
+    #botao1{
+        background-color: #ffffff00;
+        padding: 0%;
+        border: none;
+      
+    }
+    #botao2{
+        background-color: #ffffff00;
+        padding: 0%;
+        border: none;
+      
+    }
 
+    #botao{
+        width: 20PX;
+    }
     pre#castracaopediatrica{
         
         margin-left: 30px;
@@ -436,6 +451,7 @@ pre#adocaoresponsavel{
     .ajustandofooter{
         display: block;
     }
+    
     
     
     

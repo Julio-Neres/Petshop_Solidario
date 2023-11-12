@@ -13,4 +13,30 @@ function nextImage(){
 
 }
 
+function texto1() {
+    var adocaoresponsavel = document.getElementById("adocaoresponsavel");
 
+    
+    var isExpanded = adocaoresponsavel.style.maxHeight === "none" || adocaoresponsavel.style.maxHeight === "";
+
+  
+    if (isExpanded) {
+        adocaoresponsavel.style.maxHeight = "100px"; 
+    } else {
+        adocaoresponsavel.style.maxHeight = null; 
+    }
+}
+
+function texto2() {
+    var castracaopediatrica = document.getElementById("castracaopediatrica");
+
+    
+    var isExpanded = castracaopediatrica.style.maxHeight === "none" || castracaopediatrica.style.maxHeight === "";
+
+  
+    if (isExpanded) {
+        castracaopediatrica.style.maxHeight = "100px"; 
+    } else {
+        castracaopediatrica.style.maxHeight = null; 
+    }
+}
