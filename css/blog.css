@@ -293,7 +293,7 @@ nav a {
 
 #icadastroadotar{
     text-decoration: none;
-    border: 8 px: solid #7d0180;
+    border: 8px solid #7d0180;
     background-color: #7d0180;
     border-radius: 12px;
   
@@ -454,7 +454,120 @@ pre#adocaoresponsavel{
     
     
     
-    
+    .slider2{
+        margin: 0 430px;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+        }
+        
+        .slides2{
+            width: 450%;
+            height: 400px;
+            display: flex;
+        }
+        
+        .slides2 input{
+            display: none;
+            
+        }
+        
+        .slide2{
+            width: 25%;
+            position: relative;
+        }
+        
+        .slide2 img{
+            width: 400px;
+            
+        }
+        
+        .manual-navigation{
+            position: absolute;
+            width: 400px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .manual-btn{
+        
+            border: 2px solid #ffffff;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .manual-btn:not(:last-child){
+        margin-right: 40px;
+        }
+        
+        .navigation-auto div{
+        
+        border: 2px solid blue;
+        padding:5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+        
+        }
+        .navigation-auto{
+            position: absolute;
+            width: 400px;
+            margin-top: 410px;
+            display: flex;
+            justify-content:center;
+            
+        
+        }
+        
+        .navigation-auto div:not(:last-child){
+            margin-right: 40px;
+        }
+        #radio1:checked ~  .navigation-auto .auto-btn1{
+            background-color: #ffffff;
+            
+        }
+        #radio2:checked ~ .navigation-auto .auto-btn2{
+            background-color: #ffffff;
+            
+        }
+        #radio3:checked ~ .navigation-auto .auto-btn3{
+            background-color: #ffffff;
+            
+        }
+        #radio4:checked ~ .navigation-auto .auto-btn4{
+            background-color: #ffffff;
+            
+        }
+        
+        .manual-btn:hover{
+        background-color: #ffffff;
+        }
+        
+        #radio5:checked ~ .first{
+            margin-left: 0;
+        
+        }
+        
+        #radio6:checked ~ .first{
+            margin-left:-25%;
+        
+        }
+        #radio7:checked ~ .first{
+            margin-left:-50%;
+        
+        }
+        
+        #radio8:checked ~ .first{
+            margin-left:-75%;
+        
+        }
+
+        .carousel2 {
+            margin-top: 50px;
+        }
      
     
     
