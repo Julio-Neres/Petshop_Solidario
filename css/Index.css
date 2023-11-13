@@ -192,6 +192,42 @@ ul li a {
 
 }
 
+#subscribe-box {
+
+   top: 80px;
+   left: 75%;
+   display: block;
+   position: absolute;
+   background-color: #2d012e;
+   padding: 20px;
+   border-radius: 30px;
+   width: 200px;
+   height: 200px;
+   transition: 0.5s ease-in-out;
+   
+}
+
+#subscribe-box p {
+   text-align: center;
+   color: white;
+   font-family: 'jomhuria';
+   font-size: 30px;
+}
+
+#subscribe-box input {
+   width: 190px;
+   box-shadow: none;
+   border-radius: 20px;
+   border: 1px solid white;
+   margin-bottom: 5px;
+   padding: 5px;
+}
+
+#subscribe-box button {
+   display: flex;
+   margin-left: 60%;
+}
+
 /* conteudo da main */
 
 .main-container {
