@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'JockeyOne';
+    src: url('../fonts/JockeyOne-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Jomhuria';
+    src: url('../fonts/Jomhuria-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Arapey';
+    src: url('../fonts/Arapey-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Jolly';
+    src: url('../fonts/JollyLodger-Regular.ttf') format('truetype');
+ }
+
 body {
     margin: 0;
     padding: 0;
@@ -443,13 +463,13 @@ margin-top: 80px;
 pre#adocaoresponsavel{
    
     
-       
+   
         flex-direction: column;
         font-weight: 400;
         font-size: 19px;
         font-family: Georgia,Arial,sans-serif;
-        max-width: 900px;
-        margin: 0 auto;
+        
+        margin: 0 200px;
         overflow-x: auto; 
         white-space: pre-wrap;
     }
