@@ -1,193 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/ProdutosCachorro.css" type="text/css">
+    <script src="./JS/ProdutosCachorro.js" defer></script>
     <title>Cachorro</title>
 </head>
+
 <body>
-    <header>
+    <header class="menu-container">
         <div class="logo">
-            <img src="/img_ProdutosCachorro/LOGO QUATRO PATAS.png" alt="Logo">
+            <h1 class="logo-name">QUATRO</h1>
+            <img src="./imagens/log-dog.png" alt="logo-quatro-patas" />
+            <h1 class="logo-name">PATAS</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/ProdutosGatos.html">Gato</a></li>
-                <li><a href="/ProdutosCachorro.html">Cachorro</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/doações.html">Doações</a></li>
-                <li><a href="/CarrinhoDeCompras.html">Carrinho de compras</a></li>
-            </ul>
-        </nav>
-        <div class="user-button">
-            <a href="/formulario-cadastro.html" class="login-button">Entrar/Cadastre-se</a>
+
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/ProdutosGatos.html">GATO</a></li>
+            <li><a href="/ProdutosCachorro.html">CACHORRO</a></li>
+            <li><a href="/blog.html">BLOG</a></li>
+            <li><a href="/doações.html">ADOÇÕES</a></li>
+        </ul>
+
+        <div class="btn-login-subscribe">
+            <p><a href='#'>Entrar | Cadastre-se</a></p>
+        </div>
+
+        <div id="subscribe-box">
+            <div class="login">
+                <form method="post">
+                    <p>Email:</p>
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <input type="password" name="password" id="password">
+                    <button type="submit">Inscreva-se</button>
+                </form>
+            </div>
         </div>
     </header>
 
     <div class="banner">
-        <img src="/img_ProdutosCachorro/propaganda.png" alt="Banner">
+        <div class="sub-menu">
+            <h6><a href="/index.html">HOME</a><span> > </span><a href="/ProdutosCachorro.html">CACHORRO</a></h6>
+        </div>
+        <div class="img-cachorro">
+            <img src="./img_ProdutosCachorro/cachorro-banner.png" alt="cachorro-banner">
+            <h1>MELHORES PRODUTOS <br>
+                PARA O SEU CACHORRO
+            </h1>
+            <img class="dog-2" src="./img_ProdutosCachorro/cachorro-banner.png" alt="cachorro-banner">
+        </div>
     </div>
+
+   
 
     <div class="content">
         <div class="items">
             <div class="item">
                 Produtos Mais Procurados
             </div>
-            <div class="item smaller-font">
+            <div class="smaller-font">
                 500 produtos ordenados por:
             </div>
-            <div class="item">
-                <select class="select">
-                    <option value="maior-preco">Maior Preço</option>
-                    <option value="menor-preco">Menor Preço</option>
-                </select>
+            <div class="custom-select">
+                <div class="select-trigger">Selecione uma opção ▼</div>
+                <ul class="select-options">
+                    <li value="maior-preco">Maior Preço</li>
+                    <li value="menor-preco">Menor Preço</li>
+                </ul>
             </div>
         </div>
     </div>
 
     <div class="sidebar">
         <ul>
-        <div class="section" id="racoes">
-            <hr class="line4">
-            <span>Rações</span>
-            <span>Ração Seca</span>
-            <span>Ração úmida</span>
-        </div>
-        <div class="section" id="higiene">
-            <hr class="line4">
-            <span>Higiene</span>
-            <span>Shampoo</span>
-            <span>Cama</span>
-        </div>
-        <div class="section" id="brinquedos">
-            <hr class="line4">
-            <span>brinquedos</span>
-            <span>Pelucia</span>
-       
-        <hr class="line3">
+            <div class="section" id="racoes">
+                <hr class="line4">
+                <span>Rações</span>
+                <span>Ração Seca</span>
+                <span>Ração úmida</span>
+            </div>
+            <div class="section" id="higiene">
+                <hr class="line4">
+                <span>Higiene</span>
+                <span>Shampoo</span>
+                <span>Cama</span>
+            </div>
+            <div class="section" id="brinquedos">
+                <hr class="line4">
+                <span>brinquedos</span>
+                <span>Pelucia</span>
+
+                <hr class="line3">
         </ul>
     </div>
 
     <div class="product-containers">
-       
+
         <div class="product">
             <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Ração Seca PremieR Pet Golden 
-                    Seleção Natural para Cães Filhotes</p>
-                <p>Preço: R$ 156,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGranPlus 1.png" alt="Produto 2">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Ração GranPlus Choice 
-                    Frango e Carne para Cães Adultos</p>
-                <p>Preço: R$ 204,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoRoyal 1.png" alt="Produto 3">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Ração Royal Canin Mini Indoor
-                    Junior para Cães Filhotes</p>
-                <p>Preço: R$ 134,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoRoyal-paragolden-Adultos 1.png" alt="Produto 4">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Ração Royal Canin para Cães Adultos 
-                    da Raça Golden Retriever - 12 Kg</p>
-                <p>Preço: R$ 344,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
-        
-        
+
         <div class="product">
-            <img src="/img_ProdutosCachorro/raçaoPedigree 1.png" alt="Produto 5">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Ração Úmida Pedigree Sachê 
-                    Cordeiro ao Molho para Cães Adultos</p>
-                <p>Preço: R$ 2,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoTrue 1.png" alt="Produto 6">
-            <div class="product-info">
-                <p>Ração Úmida True Mixer Frango, 
-                    Cenoura e Brócolis para Cães</p>
-                <p>Preço: R$ 19,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/Almofada01 1.png" alt="Produto 7">
-            <div class="product-info">
-                <p>Almofada Retangular
-                    Meau Cinza</p>
-                <p>Preço: R$ 79,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/PeluciaBrinquedo 1.png" alt="Produto 8">
-            <div class="product-info">
-                <p>Pelúcia Future Pet 
-                    Netflix Login</p>
-                <p>Preço: R$ 109,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-        
-        
-        <div class="product">
-            <img src="/img_ProdutosCachorro/shampooSanol 1.png" alt="Produto 9">
-            <div class="product-info">
-                <p>Shampoo Sanol Dog 
-                    Antipulgas para Cães</p>
-                <p>Preço: R$ 24,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
-            </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/brinquedoJambo 1.png" alt="Produto 10">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Brinquedo Jambo Mordedor 
-                    Pelúcia Macaco Kelev Preto</p>
-                <p>Preço: R$ 39,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/cama 1.png" alt="Produto 11">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Cama Luppet Iglu 3 em 1 
-                    com Estampa Cachorro</p>
-                <p>Preço: R$ 189,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
         <div class="product">
-            <img src="/img_ProdutosCachorro/ossoSnack 1.png" alt="Produto 12">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
             <div class="product-info">
-                <p>Osso Snack Show 
-                    para Cães Adultos Kr</p>
-                <p>Preço: R$ 34,90</p>
-                <button class="add-to-cart">Adicionar ao Carrinho</button>
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
             </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
         </div>
-    </div>
+
+
+        <div class="product">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
+            <div class="product-info">
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
+            </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
+        </div>
+        <div class="product">
+            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
+            <div class="barra-baixo-item"></div>
+            <div class="product-info">
+                <p class="value1">
+                    Ração Seca PremieR Pet Golden<br>
+                    Seleção Natural para Cães Filhotes
+                </p>
+                <div class="quanti">
+                    <button id="diminuir">-</button>
+                    <span id="quantidade">0</span>
+                    <button id="adicionar">+</button>
+                </div>
+                <p class="value2">R$ 156,90</p>
+            </div>
+            <button class="add-to-cart">
+            <p>Adicionar ao Carrinho</p></button>
+        </div>
 
     <div class="pagination">
-        <a class="prev" href="#">◄  Anterior</a>
+        <a class="prev" href="#">◄ Anterior</a>
         <a class="page" href="#">1</a>
         <a class="page" href="#">2</a>
         <a class="page" href="#">3</a>
@@ -197,59 +294,105 @@
     </div>
 
     <footer>
-    <div class="footer">
-        <div class="footer-images">
-            <img src="/img_ProdutosCachorro/pagamento seguro.png" alt="Imagem 1">
-            <img src="/img_ProdutosCachorro/entrega rápida.png" alt="Imagem 2">
-            <img src="/img_ProdutosCachorro/devoluções rápidas.png" alt="Imagem 3">
-            <img src="/img_ProdutosCachorro/suporte ao cliente.png" alt="Imagem 4">
+        <div class="information-work">
+            <div class="space">
+                <div class="image-container1">
+                    <img src="./imagens/carrinho-de-compras.png" alt="carrinho-de-compras">
+                </div>
+                <p class="text-entregas2">Pagamento Seguro</p>
+
+            </div>
+
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/carro-compras.png" alt="carro-entregas">
+
+                </div>
+                <p class="text-entregas1">Entrega Rápida</p>
+            </div>
+
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/bolsacompras.png" alt="bolsa-compras">
+
+                </div>
+                <p class="text-entregas1">Devoluções Rápidas</p>
+            </div>
+
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/24horas.png" alt="support-24h">
+
+                </div>
+                <p class="text-entregas1">Suporte ao Cliente</p>
+            </div>
         </div>
-    </div>
 
-    <div class="footer-2">
-        <img src="/img_ProdutosCachorro/Frame 5.png" alt="Imagem 1">
-        <img src="/img_ProdutosCachorro/Inscreva-se em nossa News Letter para receber ofertas exclusivas..png" alt="Imagem 2">
-        <input type="email" placeholder="E-mail">
-        <button class="inscricao-button">Inscrever-se</button>  
-    </div>
+        <div class="newslleter">
 
-    <div class="footer-content">
-        <img src="/img_ProdutosCachorro/LOGO QUATRO PATAS.png" alt="Logo da Página">
-        <img src="/img_ProdutosCachorro/🦆 icon _instagram_.png" alt="Instagram">
-        <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. 
-            It has roots in a piece of classical Latin literature from 45 BC, making
-            it over 2000 years old. Richard McClintock, a Latin professor at 
-            Hampden-Sydney College in Virginia, looked up one of the more 
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, 
-            and going through the cites of the word in classical literature, 
-            discovered the undoubtable source.
-        </p>
-        <ul>
-            <li>Informações para contato</li>
-            <li>No: 10 A, Rua Santos Reis, Acapulco MD, BRASIL 59875420</li>
-            <li>Quatro_Patas_suporte@example.com</li>
-            <li>xxx - xxx - xxxxxx</li>
-            <li>www.example.com</li>
-        </ul>
+            <img src="./imagens/caixa-email.png" alt="Balão-imagem-email">
 
-        <ul>
-            <li>Sobre Nós</li>
-            <li>O que fazemos</li>
-            <li>Nossos Parceiros</li>
-            <li>Anuncie aqui</li>
-        </ul>
+            <div class="text-email">
+                <p>Inscreva-se para receber<br>
+                    em seu e-mail, novas atualizações.
+                </p>
+            </div>
+            <p class="barra-divisão"></p>
 
-        <ul>
-            <li>Informações</li>
-            <li>Aplicativo Mobile</li>
-            <li>Afiliado</li>
-            <li>Politica de Privacidade</li>
-        </ul>
+            <p class="text-news">
+                Increva-se em nossa News Letter<br>
+                para receber ofertas excluusivas.
+            </p>
 
-        <hr class="line1">
+            <div class="formulario">
+                <form method="post">
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <button type="submit">Inscreva-se</button>
+                </form>
+            </div>
+        </div>
 
-    </div>
-    </footer>   
+        <div class="work-info">
+            <div class="logo">
+                <h1 class="logo-name">QUATRO</h1>
+                <img src="./imagens/log-dog.png" alt="logo-quatro-patas" />
+                <h1 class="logo-name">PATAS</h1>
+            </div>
+            <img class="logo-insta" src="./imagens/insta-logo.png" alt="insta-logo">
+            <div class="developer-circle">
+                <div class="cicle1">
+                    <img src="" alt="phot_denner">
+                    <div class="name_space">
+                        <h1>Denner</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/matheus.jpeg" alt="phot_matheus">
+                    <div class="name_space">
+                        <h1>Matheus</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/júlio.jpeg" alt="phot_júlio">
+                    <div class="name_space">
+                        <h1>Júlio</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/gabriel.png" alt="phot_gabriel">
+                    <div class="name_space">
+                        <h1>Gabriel</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="text-reserved">
+            <p>© 2023 Quatro_Patas - Todos os direitos reservados.</p>
+        </div>
+
+    </footer>
 </body>
+
 </html>
