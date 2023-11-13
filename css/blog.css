@@ -464,12 +464,11 @@ pre#adocaoresponsavel{
    
     
    
-        flex-direction: column;
         font-weight: 400;
         font-size: 19px;
         font-family: Georgia,Arial,sans-serif;
-        
-        margin: 0 200px;
+        max-width: 900px;
+        margin: 0 auto;
         overflow-x: auto; 
         white-space: pre-wrap;
     }
