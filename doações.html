@@ -4,188 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/doação.css">
+    <script src="/adocao.js" defer></script>
     <title>Doações</title>
 </head>
 <body>
-    <header class="container-menu">
-        <a href="index.html">
-        <img src="./imagens/Quatro-Patas-logo.png" alt="logo quatro patas"/>
-        </a>
+    <header class="menu-container">
+        <div class="logo">
+            <h1 class="logo-name">QUATRO</h1>
+            <img src="./imagens/log-dog.png" alt="logo-quatro-patas" />
+            <h1 class="logo-name">PATAS</h1>
+        </div>
+
         <ul>
             <li><a href="/index.html">HOME</a></li>
             <li><a href="/ProdutosGatos.html">GATO</a></li>
             <li><a href="/ProdutosCachorro.html">CACHORRO</a></li>
             <li><a href="/blog.html">BLOG</a></li>
-            <li><a href="/doações.html">DOAÇÕES</a></li>
-            
+            <li><a href="/doações.html">ADOÇÕES</a></li>
         </ul>
-        <div class="btn-login">
-            <p><a href="#">Entrar | Cadastre-se</a></p>
-        </div>
-        <div class="adotar">
-       
+
+        <div class="btn-login-subscribe">
+            <p><a href='#'>Entrar | Cadastre-se</a></p>
         </div>
     </header>
-    <p id="adotar"><a href="/questionario-doacao.html">Quero adotar um pet</a></p>
-     <body>
+    
+    <a href="/questionario-doacao.html">
+        <img class="mobile-image" src="/imagens/Adote seu pet!.gif" alt="Mobile Image">
+    </a>
+    
       <main>
         <section id="title">
             <div class="animais-disponiveis">
             <h1>Animais disponíveis para doação</h1>
             </div>
             <div class="cards-01">
-                <p>Já pensou em adotar um cachorrinho ou gatinho? Aqui você vai encontrar diversos animais prontinhos para fazer parte da sua família</p>
+                <p>Já pensou em adotar um cachorrinho ou gatinho? Aqui você vai encontrar diversos animais prontinhos para fazer parte da sua família!</p>
             </div>
 
         </section>
 
-        <section id="container-doação">
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/cachorro-para-adotar.jpeg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Laila</h2>
-                    <p>Nome: Laila
-                        Idade: 9 meses
-                        Gosto muito de brincar e dormir no colo.</p>
-                </div>
+        <div class="container-carousel">
+            <div class="faixa-carousel">
+                <div class="slide-carousel"><img src="/imagens/cachorro caramelo.png" alt="Slide 1"></div>
+                <div class="slide-carousel"><img src="/imagens/cachorro caramelo 2.png" alt="Slide 2"></div>
+                <div class="slide-carousel"><img src="/imagens/cachorro caramelo 3.png" alt="Slide 3"></div>
+                
             </div>
+            <section id="interacao">
+            <img src="/imagens/seta (2).png" onclick="prevSlide()" alt="Anterior" id="anterior"class="button-image" />
+            <span id="coracao" class="coracao">&#10084;</span>
+            <img src="/imagens/seta direita.png" onclick="nextSlide()" alt="Próximo" id="proximo"class="button-image" />
+            </section>
+            
+            
+            <p>Essa é Eva, uma pequena de quatro patas de aproximadamente 3 anos que adora receber carinhos e afagos, e que quando se trata de brincar, ninguém segura a animação dela! Ela é uma verdadeira especialista em criar momentos divertidos e inesquecíveis. Não há tédio ao lado da Eva, só risadas e diversão garantida!
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/gato-para-doar1.jpg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Pyke</h2>
-                    <p> Sou o Pyke adoro meus brinquedos e também gosto de carinho.</p>
-                </div>
-            </div>
+Eva está castradinha, vacinada e livre de parasitas.
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/cachorro-para-doar3.jpeg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Duky</h2>
-                    <p>Nome: Duky
-                        Idade: 3 anos
-            Sou o Duky e adoro passear no parque.</p>
-                </div>
-            </div>
+Adote Eva e descubra como a vida pode ser ainda mais incrível com essa adorável cadelinha alegrando seus dias! 🐶❤️🐾
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/gato-para-doar2.jpg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Belinha</h2>
-                    <p>Nome: Belinha
-                        Idade: 9 meses
-                        adoro meus brinquedos e também gosto de carinho./p>
-                </div>
-            </div>
+    
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/cachorro-para-doar4.jpeg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Bob</h2>
-                    <p>Nome: Bob
-                        Idade: 2 anos
-          Meu nome é Bob, e pela minha cara já sabe ne ? adoro brincar</p>
-                </div>
-            </div>
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/gato-para-doar3.jpg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Melissa</h2>
-                    <p>Nome: Melissa
-                        Idade: 4 anos
-          Sou a Melissa, procuro um amiguinho bem legal, gosto de ração e brinquedos</p>
-                </div>
-            </div>
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/gato-para-doar4.jpg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Laila</h2>
-                    <p>Nome: Max
-                        Idade: 4 anos
-                        Sou o Max, amigável e adoro uma soneca.</p>
-                </div>
-            </div>
+</p>
+</div>
 
-            <div class="container-card">
-                <div class="caixa-imagem">
-                    <img src="img_doações/gato-para-doar5.jpg" alt="cachorro">
-                </div>
-                <div class="content">
-                    <h2>Felix</h2>
-                    <p>Nome: Felix
-                        Idade: 2 meses
-                        Olá sou o Felix, sou um filhote a procura do meu primeiro amiguinho</p>
-                </div>
-            </div>
+        
+        
 
-        </section>
+        
         
     </main>
     
-    </body>
-    <footer> 
-        <div class="footer">
-            <div class="footer-images">
-                <img src="/img_ProdutosCachorro/pagamento seguro.png" alt="Imagem 1">
-                <img src="/img_ProdutosCachorro/entrega rápida.png" alt="Imagem 2">
-                <img src="/img_ProdutosCachorro/devoluções rápidas.png" alt="Imagem 3">
-                <img src="/img_ProdutosCachorro/suporte ao cliente.png" alt="Imagem 4">
+    
+    <footer>
+        <div class="information-work">
+            <div class="space">
+                <div class="image-container1">
+                    <img src="./imagens/carrinho-de-compras.png" alt="carrinho-de-compras">
+                </div>
+                <p class="text-entregas2">Pagamento Seguro</p>
+    
+            </div>
+    
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/carro-compras.png" alt="carro-entregas">
+    
+                </div>
+                <p class="text-entregas1">Entrega Rápida</p>
+            </div>
+    
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/bolsacompras.png" alt="bolsa-compras">
+    
+                </div>
+                <p class="text-entregas1">Devoluções Rápidas</p>
+            </div>
+    
+            <div class="space">
+                <div class="image-container">
+                    <img src="./imagens/24horas.png" alt="support-24h">
+    
+                </div>
+                <p class="text-entregas1">Suporte ao Cliente</p>
             </div>
         </div>
     
-        <div class="footer-2">
-            <img src="/img_ProdutosCachorro/Frame 5.png" alt="Imagem 1">
-            <img src="/img_ProdutosCachorro/Inscreva-se em nossa News Letter para receber ofertas exclusivas..png" alt="Imagem 2">
-            <input type="email" placeholder="E-mail">
-            <button class="inscricao-button">Inscrever-se</button>  
+        <div class="newslleter">
+    
+            <img src="./imagens/caixa-email.png" alt="Balão-imagem-email">
+    
+            <div class="text-email">
+                <p>Inscreva-se para receber<br>
+                    em seu e-mail, novas atualizações.
+                </p>
+            </div>
+            <p class="barra-divisão"></p>
+    
+            <p class="text-news">
+                Increva-se em nossa News Letter<br>
+                para receber ofertas excluusivas.
+            </p>
+    
+            <div class="formulario">
+                <form method="post">
+                    <input type="email" name="email" placeholder="Seu e-mail" required>
+                    <button type="submit">Inscreva-se</button>
+                </form>
+            </div>
         </div>
     
-        <div class="footer-content">
-            <img src="/img_ProdutosCachorro/LOGO QUATRO PATAS.png" alt="Logo da Página">
-            <img src="/img_ProdutosCachorro/🦆 icon _instagram_.png" alt="Instagram">
-          
-            <ul class="ajustandofooter">
-                <li>Informações para contato</li>
-                <li>No: 10 A, Rua Santos Reis, Acapulco MD, BRASIL 59875420</li>
-                <li>Quatro_Patas_suporte@example.com</li>
-                <li>xxx - xxx - xxxxxx</li>
-                <li>www.example.com</li>
-            </ul>
+        <div class="work-info">
+            <div class="logo">
+                <h1 class="logo-name">QUATRO</h1>
+                <img src="./imagens/log-dog.png" alt="logo-quatro-patas" />
+                <h1 class="logo-name">PATAS</h1>
+            </div>
+            <img class="logo-insta" src="./imagens/insta-logo.png" alt="insta-logo">
+            <div class="developer-circle">
+                <div class="cicle1">
+                    <img src="" alt="phot_denner">
+                    <div class="name_space">
+                        <h1>Denner</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/matheus.jpeg" alt="phot_matheus">
+                    <div class="name_space">
+                        <h1>Matheus</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/júlio.jpeg" alt="phot_júlio">
+                    <div class="name_space">
+                        <h1>Júlio</h1>
+                    </div>
+                </div>
+                <div class="cicle1">
+                    <img src="./imagens/gabriel.png" alt="phot_gabriel">
+                    <div class="name_space">
+                        <h1>Gabriel</h1>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     
-            <ul class="ajustandofooter">
-                <li>Sobre Nós</li>
-                <li>O que fazemos</li>
-                <li>Nossos Parceiros</li>
-                <li>Anuncie aqui</li>
-            </ul>
-    
-            <ul class="ajustandofooter">
-                <li>Informações</li>
-                <li>Aplicativo Mobile</li>
-                <li>Afiliado</li>
-                <li>Politica de Privacidade</li>
-            </ul>
-    
-            <hr class="line1">
-    
+        <div class="text-reserved">
+            <p>© 2023 Quatro_Patas - Todos os direitos reservados.</p>
         </div>
     
     </footer>
-
+    </body>
 </html>

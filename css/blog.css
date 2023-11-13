@@ -409,19 +409,8 @@ nav a {
     margin-top: 20px;
 }
 
-#seta1{
-    position: absolute;
-    top: 880px;
-    left: 605px;
-    
-}
 
-#seta2{
-    position: absolute;
-    top: 430px;
-    left: 605px;
-    
-}
+
 .logo-name {
     display: flex;
     margin-top: 15px;
@@ -437,13 +426,7 @@ nav a {
 
 
 
-.pesquisas{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-    
-}
+
 
 #icadastroadotar{
     text-decoration: none;
