@@ -713,6 +713,9 @@ padding-top: 18px;
  
  }
 
+ #imagem-container {
+    display: none;
+}
 
  
 
