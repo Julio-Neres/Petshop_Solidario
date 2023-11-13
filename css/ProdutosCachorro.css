@@ -306,7 +306,6 @@ ul li a {
 
 .item1 {
     width: 150px;
-    border: 2px solid red;
 }
 
 .select {
@@ -332,7 +331,6 @@ ul li a {
     float: left;
     width: 200px;
     padding: 20px;
-    border: 2px solid red;
     flex-wrap: wrap;
 }
 
