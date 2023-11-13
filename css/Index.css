@@ -10,7 +10,7 @@ html {
    background-color: #B431B6;
 }
 
-/* Fontes utilizadas no site */
+
 @font-face {
    font-family: 'JockeyOne';
    src: url('../fonts/JockeyOne-Regular.ttf') format('truetype');
