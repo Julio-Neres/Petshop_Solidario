@@ -91,33 +91,34 @@ nav a {
 #gato{
     position: absolute;
     top: 100px;
-    left: 900px;
-    width: 100px;
-    height: 200px;
+    left: 73%;
+    width: 17%;
+    border-radius: 100%;
 }
 #patinhas{
     position: absolute;
     top: 100px;
-    left: 900px;
+    left: 80%;
     
 }
 #patinhas1{
     position: absolute;
     top: 500px;
-    left: 900px;
+    left: 80%;
 }
 #patinhas2{
     position: absolute;
     top: 880px;
-    left: 900px;
+    left: 80%;
 }
 
-#cachorro{
+#gifscoobydo{
     width: 200px;
-    height: 200px;
+    height: 150px;
     position: absolute;
-    left: 50px;
-    top: 130px;
+    left: 10%;
+    margin-top: 5%;
+    border-radius: 100%;
     
 }
 body {
@@ -284,7 +285,433 @@ padding-top: 18px;
 
 }
 
+* {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body,
+ html {
+    width: 100%;
+    height: 100%;
+    background-color: #B431B6;
+ }
+ 
+ 
+ @font-face {
+    font-family: 'JockeyOne';
+    src: url('../fonts/JockeyOne-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Jomhuria';
+    src: url('../fonts/Jomhuria-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Arapey';
+    src: url('../fonts/Arapey-Regular.ttf') format('truetype');
+ }
+ 
+ @font-face {
+    font-family: 'Jolly';
+    src: url('../fonts/JollyLodger-Regular.ttf') format('truetype');
+ }
+ 
+ /* Responsivo */
+ @media screen and (max-width: 1080px) and (min-width: 1920px) {
+    /* Estilos para telas grandes */
+ }
+ 
+ @media screen and (max-width: 568px) and (min-width: 320px) {
+    /* Estilos para telas pequenas  iphone*/
+ 
+    .menu-container {
+       width: 100%;
+       max-width: 568px;
+       height: 100%;
+       max-height: 80px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: row;
+       margin: 10px 10px 10px 10px;
+ 
+    }
+ 
+    .menu-container img {
+       width: 40%;
+       max-width: 2px;
+       height: 20%;
+       max-height: 40px;
+       padding: 2px 2px 2px 2px;
+       display: flex;
+    }
+ 
+    .menu-container ul {
+       width: 100%;
+       max-width: 150px;
+       display: flex;
+ 
+    }
+ 
+    .menu-container ul li {
+       width: 100%;
+       max-width: 100px;
+ 
+    }
+ 
+    .menu-container ul li a {
+       width: 100%;
+       max-width: 50px;
+       height: 100%;
+       max-height: 10px;
+    }
+ }
+ 
+ /* Fim do responsivo */
+ 
+ .menu-container {
+ 
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#E54AE8, 60%, transparent);
+ 
+ }
+ 
+ .logo {
+ 
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ 
+ .logo img {
+ 
+    width: 100%;
+    max-width: 50px;
+    height: 100%;
+    max-height: 60px;
+    display: flex;
+ 
+ }
+ 
+ .logo-name {
+    display: flex;
+    font-size: 20px;
+    font-family: 'JockeyOne';
+    color: #6C106D;
+    text-shadow:
+       -1px -1px 0 white,
+       1px -1px 0 white,
+       -1px 1px 0 white,
+       1px 1px 0 white;
+ }
+ 
+ ul {
+ 
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 80px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+ }
+ 
+ 
+ 
+ ul li {
+ 
+    margin: 10px 10px 10px 10px;
+ 
+ }
+ 
+ ul li a {
+ 
+    color: white;
+    text-decoration: none;
+    font-family: 'JockeyOne';
+    font-size: 20px;
+ 
+ }
 
+ 
+ footer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+ }
+ 
+ .information-work {
+ 
+    display: flex;
+    width: 1080px;
+    height: 84px;
+    background-color: #CD3EFF;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-family: 'JockeyOne';
+    color: #292D32;
+ 
+ }
+ 
+ .space {
+ 
+    width: 220px;
+    height: 40px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ 
+ 
+ .image-container {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .image-container1 {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .image-container1 img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 14px;
+ }
+ 
+ .image-container img {
+ 
+    width: 50px;
+    height: auto;
+ 
+ }
+ 
+ .text-entregas1 {
+ 
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+ 
+ }
+ 
+ .text-entregas2 {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: -9px;
+    margin-top: 2px;
+ }
+ 
+ .newslleter {
+ 
+    display: flex;
+    width: 1080px;
+    height: 84px;
+    background-color: #B242E7;
+    border-radius: 30px;
+ 
+ }
+ 
+ .newslleter img {
+ 
+    position: relative;
+    width: 75px;
+    height: auto;
+    display: flex;
+    margin-left: 35px;
+    left: 20px;
+ 
+ }
+ 
+ .newslleter .text-email {
+ 
+    position: relative;
+    color: #292D32;
+    font-family: 'JockeyOne';
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    left: 20px;
+ 
+ }
+ 
+ .newslleter .barra-divisão {
+ 
+    position: relative;
+    width: 2px;
+    height: 45px;
+    background-color: #292D32;
+    align-items: center;
+    justify-content: center;
+    left: 40px;
+    top: 18px;
+ 
+ }
+ 
+ .text-news {
+ 
+    position: relative;
+    color: #292D32;
+    font-family: 'JockeyOne';
+    left: 10%;
+    top: 21px;
+ 
+ }
+ 
+ .formulario {
+ 
+    position: relative;
+    top: 30px;
+    left: 140px;
+    text-align: center;
+ 
+ }
+ 
+ .formulario input[type="email"] {
+ 
+    width: 300px;
+    padding: 8px;
+    border-radius: 30px;
+    border: 1px solid white;
+    text-align: left;
+ 
+ }
+ 
+ .formulario button {
+ 
+    position: relative;
+    padding: 2px 2px;
+    border-radius: 30px;
+    border: 1px solid #292d32;
+    width: 90px;
+    background-color: #292D32;
+    color: white;
+    font-family: 'JockeyOne';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    right: 50px;
+ }
+ 
+ .work-info {
+ 
+    display: flex;
+    width: 1080px;
+    height: 177px;
+    background-color: #7F0094;
+    border-radius: 30px;
+ }
+ 
+ .logo-insta {
+ 
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin-top: 5%;
+ }
+ 
+ .cicle1 {
+    width: 120px;
+    height: 90px;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: right;
+    margin-top: 20px;
+    margin-left: 40px;
+ }
+ 
+ .name_space {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+ }
+ 
+ .name_space h1 {
+    font-family: 'JockeyOne';
+    color: #e4a546;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow:
+       -1px -1px 0 white,
+       1px -1px 0 white,
+       -1px 1px 0 white,
+       1px 1px 0 white;
+ }
+ 
+ .cicle1 img {
+    margin-left: 40px;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+ 
+ }
+ 
+ .text-reserved {
+    font-family: 'JockeyOne';
+    font-size: 20px;
+    color: #300138;
+ }
+
+ .btn-login-subscribe {
+
+    width: 100%;
+    max-width: 180px;
+    height: 50px;
+    background-color: #EE921C;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 6px 6px 6px 2px rgba(125, 1, 128, 1.5);
+ 
+ }
+ 
+ .btn-login-subscribe p {
+ 
+    font-family: 'JockeyOne';
+    font-size: 20px;
+    display: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 9px;
+ }
+ 
+ .btn-login-subscribe p a {
+ 
+    text-decoration: none;
+    color: white;
+ 
+ }
 
 
  
