@@ -605,6 +605,8 @@ ul li a {
    margin: 2px auto;
    padding: 10px auto;
    background-image: linear-gradient(#F843FC, 40%, transparent);
+   overflow: hidden;
+   transition: transform 0.3 ease-in-out;
 }
 
 .promotion-one {
