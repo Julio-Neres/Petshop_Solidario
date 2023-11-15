@@ -239,11 +239,11 @@
         <p>" A melhor companhia é aquela que te aceita do jeito que você é. "</p>
 
         <div class="image-car">
-            <img src="./imagens/gato-sentado.jpg" alt="cat-sentado">
-            <img src="./imagens/dois-cachorros.jpg" alt="two-dogs">
-            <img src="./imagens/gatinho-deitado.jpg" alt="cat-sleep">
-            <img src="./imagens/gato-brabo.jpg" alt="cat-hungri">
-            <img src="./imagens/gato-e-cachorro.jpg" alt="cat-dog">
+            <img class="carrossel-item" src="./imagens/gato-sentado.jpg" alt="cat-sentado">
+            <img class="carrossel-item" src="./imagens/dois-cachorros.jpg" alt="two-dogs">
+            <img class="carrossel-item" src="./imagens/gatinho-deitado.jpg" alt="cat-sleep">
+            <img class="carrossel-item" src="./imagens/gato-brabo.jpg" alt="cat-hungri">
+            <img class="carrossel-item" src="./imagens/gato-e-cachorro.jpg" alt="cat-dog">
         </div>
 
 
@@ -301,11 +301,13 @@
             </p>
 
             <div class="formulario">
-                <form method="post">
+                <form id="inscricaoForm" method="post">
                     <input type="email" name="email" placeholder="Seu e-mail" required>
                     <button type="submit">Inscreva-se</button>
                 </form>
             </div>
+
+            <div class="mensagem" id="mensagemSucesso"></div>
         </div>
 
         <div class="work-info">

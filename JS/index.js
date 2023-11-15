@@ -121,3 +121,32 @@ zoomEspaco4.addEventListener('mouseenter', () => {
 zoomEspaco4.addEventListener('mouseleave', () => {
     zoomBuy4.style.transform = 'scale(1)';
 });
+
+// função de envio no botão da newslleter
+
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('inscricaoForm');
+    const mensagemSucesso = document.getElementById('mensagemSucesso');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        
+
+        
+        showSuccessMessage('Inscrição realizada com sucesso!');
+    });
+
+    function showSuccessMessage(message) {
+        mensagemSucesso.textContent = message;
+        mensagemSucesso.style.display = 'block';
+
+        setTimeout(function () {
+            mensagemSucesso.style.display = 'none';
+        }, 3000); 
+    }
+});
+
+
+
+
