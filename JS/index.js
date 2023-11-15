@@ -1,25 +1,11 @@
-const btnSubscribe = document.querySelector('.btn-login-subscribe');
-const boxFlutuante = document.getElementById('subscribe-box');
+const btnCadastro = document.querySelector('.btn-login-subscribe');
 
-btnSubscribe.addEventListener('mouseenter', () => {
-    boxFlutuante.style.opacity = '1';
-    boxFlutuante.style.display = 'block';
+const subscribeBox  = document.getElementById('subscribe-box');
+
+btnCadastro.addEventListener('mouseenter', () => {
+    subscribeBox.style.display = 'block';
 });
-
-btnSubscribe.addEventListener('mouseleave', () => {
-    setTimeout(() => {
-        boxFlutuante.style.opacity = '0';
-    }, 9500); 
-});
-
-btnSubscribe.addEventListener('mouseleave', () => {
-    setTimeout(() => {
-        boxFlutuante.style.opacity = '0';
-    }, 9500); 
-});
-
-boxFlutuante.addEventListener('mouseleave', () => {
-    setTimeout(() => {
-        boxFlutuante.style.opacity = '1';
-    }, 500); 
+//Evento para fechar o balão flutuante
+subscribeBox.addEventListener('mouseleave', () => {
+        subscribeBox.style.display = 'none';
 });

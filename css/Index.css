@@ -162,7 +162,7 @@ ul li a {
 }
 
 .btn-login-subscribe {
-
+   display: inline-block;
    width: 100%;
    max-width: 180px;
    height: 50px;
@@ -193,39 +193,76 @@ ul li a {
 }
 
 #subscribe-box {
-
-   top: 80px;
-   left: 75%;
-   display: block;
-   position: absolute;
-   background-color: #2d012e;
-   padding: 20px;
+   display: none;
+   position: fixed;
+   justify-content: center;
+   align-items: center;
+   width: 250px;
+   height: 135px;
+   background-color: #300138;
    border-radius: 30px;
+   top: 70px;
+   left: 74.2%;
+}
+
+.login {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   text-align: center;
+}
+
+.login button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'JockeyOne';
    width: 200px;
-   height: 200px;
-   transition: 0.5s ease-in-out;
+   height: 50px;
+   border-radius: 10px;
+   position: fixed;
+   top: 95px;
+   left: 75.5%;
+   background-color: #d325f1;
+   text-decoration: none;
+   box-shadow: none;
+   border: 1px solid #d325f1;
+   font-size: 20px;
    
 }
 
-#subscribe-box p {
-   text-align: center;
+.login p {
+   display: inline;
    color: white;
-   font-family: 'jomhuria';
-   font-size: 30px;
+   font-family: 'Jomhuria';
+   font-size: 25px;
+   margin-right: 5px;
+   position: fixed;
+   top: 170px;
+   left: 75.8%;
 }
 
-#subscribe-box input {
-   width: 190px;
-   box-shadow: none;
-   border-radius: 20px;
-   border: 1px solid white;
-   margin-bottom: 5px;
-   padding: 5px;
-}
-
-#subscribe-box button {
+.login .entrar-but {
+   text-decoration: none;
+   color: white;
+   border-radius: 10px;
+   width: 80px;
+   text-align: center;
+   height: 30px;
    display: flex;
-   margin-left: 60%;
+   justify-content: center;
+   align-items: center;
+}
+
+.login .criar-account {
+   display: flex;
+   position: relative;
+   top: 101px;
+   left: 85%;
+   text-decoration: none;
+   color: rgb(255, 3, 255);
+   font-family: 'jomhuria';
+   font-size: 25px;
 }
 
 /* conteudo da main */
