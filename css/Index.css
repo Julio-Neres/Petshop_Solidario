@@ -1504,7 +1504,7 @@ footer {
    color: white;
    padding: 15px;
    border-radius: 5px;
-   display: block;
+   display: none;
 }
 
 .work-info {
