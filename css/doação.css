@@ -1,22 +1,31 @@
 @font-face {
     font-family: 'JockeyOne';
     src: url('../fonts/JockeyOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
  }
  
  @font-face {
     font-family: 'Jomhuria';
     src: url('../fonts/Jomhuria-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
  }
  
  @font-face {
     font-family: 'Arapey';
     src: url('../fonts/Arapey-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
  }
  
  @font-face {
     font-family: 'Jolly';
     src: url('../fonts/JollyLodger-Regular.ttf') format('truetype');
- }
+    font-weight: normal;
+    font-style: normal;
+   }
+
 
 body {
     margin: 0;
@@ -52,7 +61,16 @@ body {
     margin: 10px 10px 10px 10px;
 
  }
+ .carrossel-container {
+   display: flex;
+}
 
+.container-carousel {
+   width: 100%;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+}
  
 
  .menu-container ul {
@@ -414,6 +432,7 @@ body {
     height: auto;
     cursor: pointer;
     transition: transform 1.0s ease-in-out;
+    
 }
 
 .mobile-image:hover {
@@ -430,34 +449,75 @@ h1{
 
 
 
-.container-carousel {
-    width: 25%;
+.container-carousel1 {
+    width: 27%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
     
 }
 
-.faixa-carousel {
+.faixa-carousel1 {
     display: flex;
     transition: transform 1.5s ease-in-out;
 }
 
-.slide-carousel {
-    width: 100%;
+.container-carousel2 {
+   width: 27%;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   
 }
 
+.faixa-carousel2 {
+   display: flex;
+   transition: transform 1.5s ease-in-out;
+}
+
+.container-carousel3 {
+   width: 27%;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   
+}
+
+.faixa-carousel3 {
+   display: flex;
+   transition: transform 1.5s ease-in-out;
+}
+
+
+.slide-carousel1 {
+    width: 100%;
+}
+.slide-carousel2 {
+   width: 100%;
+}
+.slide-carousel3 {
+   width: 100%;
+}
 .button-image {
-    width: 30px; 
+    width: 50px; 
     height: auto;
     cursor: pointer;
 
     
 }
-#interacao{
+#interacao1{
  display: flex;
  justify-content: space-between;
 }
+
+#interacao2{
+   display: flex;
+   justify-content: space-between;
+  }
+  #interacao3{
+   display: flex;
+   justify-content: space-between;
+  }
 
 .coracao {
     font-size: 22px;
@@ -466,3 +526,4 @@ h1{
   
     
   }
+  
