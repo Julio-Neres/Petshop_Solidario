@@ -457,15 +457,21 @@ pre#adocaoresponsavel{
     }
     
     #botao1{
-        background-color: #ffffff00;
-        padding: 0%;
+        background-color: #EE921C;
+        padding: 0,5%;
         border: none;
-      
+        color: white;
+        font-size: large;
+        border-radius: 10px;
+
     }
     #botao2{
-        background-color: #ffffff00;
-        padding: 0%;
+        background-color:#EE921C;
+        padding: 0,5%;
         border: none;
+        color: white;
+        font-size: large;
+        border-radius: 10px;
       
     }
 

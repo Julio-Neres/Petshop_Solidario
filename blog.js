@@ -19,7 +19,7 @@ function nextImage(){
 
 
 
-function texto1() {
+function toogleTexto1() {
     var adocaoresponsavel = document.getElementById("adocaoresponsavel");
 
     
@@ -31,9 +31,11 @@ function texto1() {
     } else {
         adocaoresponsavel.style.maxHeight = null; 
     }
+    var botao =document.getElementById("botao1");
+    botao.innerText = isExpanded? "Ver mais" : "Ver menos";
 }
 
-function texto2() {
+function toogleTexto2() {
     var castracaopediatrica = document.getElementById("castracaopediatrica");
 
     
@@ -45,4 +47,6 @@ function texto2() {
     } else {
         castracaopediatrica.style.maxHeight = null; 
     }
+    var botao = document.getElementById("botao2");
+            botao.innerText = isExpanded ? "Ver mais" : "Ver menos";
 }
