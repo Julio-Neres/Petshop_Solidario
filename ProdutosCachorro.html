@@ -32,10 +32,8 @@
         <div id="subscribe-box">
             <div class="login">
                 <form method="post">
-                    <p>Email:</p>
-                    <input type="email" name="email" placeholder="Seu e-mail" required>
-                    <input type="password" name="password" id="password">
-                    <button type="submit">Inscreva-se</button>
+                    <button><a class="entrar-but" href="#">Entrar</a></button>
+                    <p>Não tem cadastro?</p><a class="criar-account" href="#">Criar conta</a>
                 </form>
             </div>
         </div>
@@ -74,250 +72,18 @@
         </div>
     </div>
 
-    <div class="sidebar">
-        <ul>
-            <div class="section" id="racoes">
-                <hr class="line4">
-                <span>Rações</span>
-                <span>Ração Seca</span>
-                <span>Ração úmida</span>
-            </div>
-            <div class="section" id="higiene">
-                <hr class="line4">
-                <span>Higiene</span>
-                <span>Shampoo</span>
-                <span>Cama</span>
-            </div>
-            <div class="section" id="brinquedos">
-                <hr class="line4">
-                <span>brinquedos</span>
-                <span>Pelucia</span>
-
-                <hr class="line3">
-        </ul>
+    <div class="filtroLateral">
+        <button data-tipo="Ração Seca">Ração Seca</button>
+        <button data-tipo="Ração Úmida">Ração Úmida</button>
+        <button data-tipo="Cama e outros">Cama & Outros</button>
+        <button data-tipo="Shampoos e cosméticos">Shampoos & Costméticos</button>
+        <button data-tipo="Brinquedos">Brinquedos</button>
+        <button data-tipo="Petiscos">Petiscos</button>
+        <button data-tipo="todos" id="mosrtrarTodos">Mostrar Todos</button>
     </div>
 
-    <div class="product-containers">
 
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-
-
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
-        <div class="product">
-            <img src="/img_ProdutosCachorro/raçãoGoldeN 1.png" alt="Produto 1">
-            <div class="barra-baixo-item"></div>
-            <div class="product-info">
-                <p class="value1">
-                    Ração Seca PremieR Pet Golden<br>
-                    Seleção Natural para Cães Filhotes
-                </p>
-                <div class="quanti">
-                    <button id="diminuir">-</button>
-                    <span id="quantidade">0</span>
-                    <button id="adicionar">+</button>
-                </div>
-                <p class="value2">R$ 156,90</p>
-            </div>
-            <button class="add-to-cart">
-            <p>Adicionar ao Carrinho</p></button>
-        </div>
+    <div id="listaProdutos" class="product-containers"></div>
 
     <div class="pagination">
         <a class="prev" href="#">◄ Anterior</a>
