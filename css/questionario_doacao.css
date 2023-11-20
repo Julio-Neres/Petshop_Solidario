@@ -166,12 +166,11 @@ body {
 }
 
 #iconfirmar {
-    border: 8px solid #7d0180;
-    background-color: #7d0180;
+    border: 8px solid#EE921C;
+    background-color:#EE921C;
     border-radius: 12px;
     padding: 10px 20px;
     color: white;
-    font-weight: bold;
     cursor: pointer;
 }
 
@@ -717,13 +716,13 @@ padding-top: 18px;
     display: none;
 }
 
- 
+.campo-valido {
+   border: 2px solid green;
+  
+}
 
-
-
-
-
-
-
+.campo-invalido {
+   border: 2px solid red;
+}
 
 
