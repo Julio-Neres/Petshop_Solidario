@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questionário de doação</title>
     <link rel="stylesheet" href="/css/questionario_doacao.css">
+    <script src="/JS/questionario.js" defer></script>
 </head>
 <body>
    
@@ -41,95 +42,87 @@
         </div>
         
         <h1> Questionário de adoção</h1>
-    <form action="" autocomplete="off" name="formulario" id="formulario">
+    <form action="" autocomplete="off" name="formulario" id="formulario"  onsubmit="return validarFormulario()">
         
         <label for="inomecompleto">1- Nome completo:</label>
-              <input type="text" name="nomecompleto" id="inomecompleto">
+              <input type="text" name="nomecompleto" id="inomecompleto" oninput="validarSomenteLetras(this)" onblur="validarCampo(this)">
 
          <label for="iendereço">2- Endereço: </label> 
-            <input type="text" name="endereço" id="iendereço">
+            <input type="text" name="endereço" id="iendereço" onblur="validarCampo(this)">
 
          <label for="icep"> 3- Cep:</label>
-            <input type="text" name="cep" id="icep">
+            <input type="number" name="cep" id="icep" onblur="validarCampo(this)">
 
         <label for="icidade">4- Cidade:</label>
-            <input type="text" name="cidade" id="icidade">
+            <input type="text" name="cidade" id="icidade" onblur="validarCampo(this)">
 
         <label for="iestado">5- Estado:</label>
-            <input type="text" name="estado" id="iestado">
+            <input type="text" name="estado" id="iestado" onblur="validarCampo(this)">
         <label for="iidade">6- Idade:</label>
-             <input type="number" name="idade" id="iidade">
+             <input type="number" name="idade" id="iidade"onblur="validarCampo(this)">
         <label for="iqtdpessoas">7- Quantas pessoas moram na sua casa? Todas estão de acordo?</label>
-             <input type="text" name="qtdpessoas" id="iqtdpessoas">
+             <input type="text" name="qtdpessoas" id="iqtdpessoas" onblur="validarCampo(this)">
 
         <label for="ilidar">8- Alguém na sua casa tem alergia a animais? <br>
             Se sim como pretende lidar com isso? </label>
-             <input type="text" name="lidar" id="ilidar">
+             <input type="text" name="lidar" id="ilidar" onblur="validarCampo(this)">
         <label for="ialergia">9- O que fará se alguém apresentar alergia após a adoção? </label>
-            <input type="text" name="alergia" id="ialergia">
+            <input type="text" name="alergia" id="ialergia" onblur="validarCampo(this)">
         <label for="imudar">10- Caso mude de residência o que fará com o animal?</label>
-            <input type="text" name="mudar" id="imudar">
+            <input type="text" name="mudar" id="imudar"onblur="validarCampo(this)">
         <label for="iimovel">11- Em que tipo de imóvel o animal vai viver?</label>
-            <input type="text" name="imovel" id="iimovel"> 
+            <input type="text" name="imovel" id="iimovel"onblur="validarCampo(this)"> 
         <label for="ianimaisemcasa">12- Possui outros animais em casa? Se sim, quais e quantos?</label>
-             <input type="text" name="animaisemcasa" id="ianimaisemcasa">
+             <input type="text" name="animaisemcasa" id="ianimaisemcasa"onblur="validarCampo(this)">
         <label for="ianimaisadquiridos">13- Caso tenha outros animais, como eles foram adquiridos?</label> 
-            <input type="text" name="animaisadquiridos" id="ianimaisadquiridos">
+            <input type="text" name="animaisadquiridos" id="ianimaisadquiridos"onblur="validarCampo(this)">
         <label for="icastrados">14- Se tem outros animais em casa, eles estão castrados? </label>
-            <input type="text" name="castrados" id="icastrados">
+            <input type="text" name="castrados" id="icastrados"onblur="validarCampo(this)">
         <label for="imotivocastrar">15- O que você pensa sobre a castração e por quê?</label>
-            <input type="text" name="motivocastrar" id="imotivocastrar">
+            <input type="text" name="motivocastrar" id="imotivocastrar"onblur="validarCampo(this)">
         <label for="ipassardia">16- Onde o animal vai passar o dia?</label>
-             <input type="text" name="passardia" id="ipassardia">
+             <input type="text" name="passardia" id="ipassardia"onblur="validarCampo(this)">
         <label for="irua">17- O animal terá acesso a rua sozinho?</label>
-             <input type= "text" name="rua" id="irua">
+             <input type= "text" name="rua" id="irua"onblur="validarCampo(this)">
         <label for="iprevenção"> Se não sairá sozinho, como você fará pra evitar que ele saia sozinho?</label>
-            <input type="text" name="prevenção" id="iprevenção">
+            <input type="text" name="prevenção" id="iprevenção"onblur="validarCampo(this)">
         <label for="icrianças">19- Há crianças em casa? </label>
-            <input type="text" name="crianças" id="icrianças">
+            <input type="text" name="crianças" id="icrianças"onblur="validarCampo(this)">
         <label for="iqtdcrianças">20- Se sim quantas?</label>
-            <input type="number" name="qtdcrianças" id="iqtdcrianças">
+            <input type="number" name="qtdcrianças" id="iqtdcrianças"onblur="validarCampo(this)">
         <label for="ifuturocrianças"> Tem intenção de ter crianças no futuro?</label>
-             <input type="text" name="futurocrianças" id="ifuturocrianças">
+             <input type="text" name="futurocrianças" id="ifuturocrianças"onblur="validarCampo(this)">
         <label for="ifuturoanimais"> 22- Se sim o que pretende fazer com o animal nesse caso?</label>
-            <input type="text" name="futuroanimais" id="ifuturoanimais">
+            <input type="text" name="futuroanimais" id="ifuturoanimais"onblur="validarCampo(this)">
         <label for="imorreu">23- Algum animal morreu na sua casa nos últimos 6 meses?</label>
-            <input type="text" name="morreu" id="imorreu">
+            <input type="text" name="morreu" id="imorreu"onblur="validarCampo(this)">
         <label for="icausamorte">24- Se sim, qual a causa da morte? </label>
-            <input type="text" name="causamorte" id="icausamorte">
+            <input type="text" name="causamorte" id="icausamorte"onblur="validarCampo(this)">
         <label for="iveterinario">25- Com que frequência um animal precisa de consulta veterinária?</label>
-            <input type="text" name="veterinario" id="iveterinario">
+            <input type="text" name="veterinario" id="iveterinario"onblur="validarCampo(this)">
         
         <label for="iabrirmao">26- Você ja teve que abrir mão de algum animal que criava?</label>
-            <input type="text" name="abrirmao" id="iabrirmao">
+            <input type="text" name="abrirmao" id="iabrirmao"onblur="validarCampo(this)">
         <label for="icircustanciaabrirmao">27- Se sim em que circunstâncias?</label>
-            <input type="text" name="circunstanciaabrirmao" id="icircustanciaabrirmao">
+            <input type="text" name="circunstanciaabrirmao" id="icircustanciaabrirmao"onblur="validarCampo(this)">
         <label for="iviajar">28- Quando viajar, como planeja cuidar do animal?</label>
-            <input type="text" name="viajar" id="iviajar">
+            <input type="text" name="viajar" id="iviajar"onblur="validarCampo(this)">
         <label for="imicrochip">29- Está ciente de que o número do microchip gera<br>responsabilidade jurídica e o animal não pode ser repassado?</label>
-            <input type="text" name="microchip" id="imicrochip">
+            <input type="text" name="microchip" id="imicrochip"onblur="validarCampo(this)">
         <label for="ifugafalec">30- Está ciente de que, em caso de fuga ou falecimento,<br> deverá comunicar ao doador?</label>
-            <input type="text" name="fugafalec" id="ifugafalec">
+            <input type="text" name="fugafalec" id="ifugafalec"onblur="validarCampo(this)">
         
+            <p id="ideclaracao">
+                Eu declaro que as afirmações por mim descritas são verdadeiras e tenho conhecimento de que as informações aqui fornecidas, bem como meus dados pessoais, não serão utilizados para fins pessoais ou mercadológicos.
+                <input type="checkbox" id="checkbox">
+            </p>
+    
+            <div class="botao-container">
+                <input id="iconfirmar"  type="submit" value="Enviar">
+            </div>
          
     </form>
-        <form action="" method="get"></form>
-        <p id="ideclaracao">Eu  declaro que as afirmações por mim descritas são verdadeiras e tenho conhecimento de que as informações aqui fornecidas, bem como meus dados pessoais, não serão utilizados para fins pessoais ou mercadológicos.
-            <input type="checkbox" id="checkbox">
-        </p>
-        <div class="botao-container">
-        <input id="iconfirmar" type="submit" value="Enviar">
-    </div>
-        <div id="imagem-container">
-            <img src="/imagens/hey-you.gif" alt="Imagem Após Enviar">
-        </div>
-        <script>
-            function mostrarImagem() {
-               
-                document.getElementById('imagem-container').style.display = 'block';
-            }
-        </script>
-       
+    
         <footer>
             <div class="information-work">
                 <div class="space">

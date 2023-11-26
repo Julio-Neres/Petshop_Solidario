@@ -58,3 +58,18 @@ function atualizarCor(coracao, clicado) {
     coracao.style.color = 'white';
   }
 }
+
+function mostrarPopup() {
+  var popup = document.getElementById('popup-container');
+  popup.style.display = 'flex'; // ou 'block', dependendo do estilo do seu popup
+}
+
+function fecharPopup() {
+  var popup = document.getElementById('popup-container');
+  popup.style.display = 'none';
+}
+
+function prosseguirParaFormulario() {
+  
+  window.location.href = "questionario-doacao.html";
+}

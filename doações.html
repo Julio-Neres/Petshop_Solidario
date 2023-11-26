@@ -28,9 +28,7 @@
         </div>
     </header>
     
-    <a href="/questionario-doacao.html">
-        <img class="mobile-image" src="/imagens/Adote seu pet!.gif" alt="Mobile Image">
-    </a>
+    
     
       <main>
         <section id="title">
@@ -119,8 +117,22 @@ Adote Eva e descubra como a vida pode ser ainda mais incrível com essa adoráve
         
         
     </main>
-    
-    
+        <div id="popup-container" class="popup-container">
+        <div class="popup-content">
+            <span class="popup-close" onclick="fecharPopup()">&times;</span>
+            <h3>Dicas para formulário de adoção</h3>
+            <p><b>Ao preencher o formulário de adoção, lembre-se de:</p>
+            <p>
+                Preencher todas as informações necessárias.<br>
+                Ser honesto sobre sua capacidade de cuidar do animal.<br><br>
+                Levará apenas alguns minutos! </b></p>
+            <div class="popup-buttons">
+                <button onclick="fecharPopup()">Voltar</button>
+                <button onclick="prosseguirParaFormulario()">Prosseguir</button>
+            </div>
+        </div>
+    </div>
+    <img class="mobile-image" src="/imagens/Adote seu pet!.gif" alt="Mobile Image" onclick="mostrarPopup()">
     <footer>
         <div class="information-work">
             <div class="space">
