@@ -658,7 +658,7 @@ footer {
     align-items: center;
     width: 202px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     left: 20px;
  
@@ -673,7 +673,7 @@ footer {
     align-items: center;
     justify-content: center;
     left: 40px;
-    top: 18px;
+    top: 5px;
  
  }
  
@@ -683,14 +683,14 @@ footer {
     color: #292D32;
     font-family: 'JockeyOne';
     left: 10%;
-    top: 21px;
+    top: 5px;
  
  }
  
  .formulario {
  
     position: relative;
-    top: 30px;
+    top: 10px;
     left: 140px;
     text-align: center;
  
