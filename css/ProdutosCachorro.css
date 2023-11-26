@@ -414,11 +414,13 @@ ul li a {
     margin-top: 110px;
     text-align: center;
     transition: all 0.5s ease;
+    margin-right: 120px;
 }
 
 .product {
     width: 194px;
     height: 344px;
+   
     margin-bottom: 40px;
     text-align: center;
     position: relative;
@@ -546,45 +548,10 @@ button {
     justify-content: center;
 }
 
-.pagination {
-    text-align: center;
-    margin: 30px;
-    margin-left: 190px;
+.pagPreview {
+    display: flex;
+    position: relative;
 }
-
-.pagination a {
-    display: inline-block;
-    margin: 0 25px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    transition: color 0.3s;
-}
-
-.pagination a:hover {
-    color: #6C106D;
-}
-
-.prev,
-.next {
-    font-size: 24px;
-}
-
-.page {
-    font-size: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-}
-
-.page:hover {
-    background: #EABF33;
-    color: white;
-}
-
-
 
 footer {
 

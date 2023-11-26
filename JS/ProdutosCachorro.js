@@ -15,6 +15,7 @@ subscribeBox.addEventListener('mouseleave', () => {
 document.addEventListener('DOMContentLoaded', function () {
     const listaProdutos = document.getElementById('listaProdutos');
 
+
     const produto1 = {
         imagem: '../img_ProdutosCachorro/Almofada Retangular Meau Cinza.png',
         nome: 'Almofada Retangular<br>Meau Cinza',
@@ -133,8 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
         quantidade: 1,
         preco: 24.90,
         tipo: 'Shampoos e cosméticos',
-    };
-
+    };  
 
     function criarProdutos(produto) {
         const eleProduto = document.createElement('div');
@@ -195,7 +195,10 @@ document.addEventListener('DOMContentLoaded', function () {
     listaProdutos.appendChild(criarProdutos(produto10));
     listaProdutos.appendChild(criarProdutos(produto11));
     listaProdutos.appendChild(criarProdutos(produto12));
+    
 });
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const listaProdutos = document.getElementById('listaProdutos');
@@ -244,7 +247,11 @@ document.addEventListener('DOMContentLoaded', function () {
         ordenarProdutosPorMenorPreco();
         customOption.style.display = 'none';
     });
+
+
 });
+
+
 
 //filtro lateral por tipo de produto
 
