@@ -27,41 +27,6 @@ body {
 }
 
 .menu-container {
-    width: 100%;
-    max-width: 568px;
-    height: 100%;
-    max-height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin: 10px 10px 10px 10px;
-
- }
-
- 
-
- .menu-container ul {
-    width: 100%;
-    max-width: 150px;
-    display: flex;
-
- }
-
- .menu-container ul li {
-    width: 100%;
-    max-width: 100px;
-
- }
-
- .menu-container ul li a {
-    width: 100%;
-    max-width: 50px;
-    height: 100%;
-    max-height: 10px;
- }
-
- .menu-container {
 
     width: 100%;
     max-width: 1920px;
@@ -96,11 +61,20 @@ body {
  
  }
  
-
+ .logo-name {
+    display: flex;
+    font-size: 20px;
+    font-family: 'JockeyOne';
+    color: #6C106D;
+    text-shadow:
+       -1px -1px 0 white,
+       1px -1px 0 white,
+       -1px 1px 0 white,
+       1px 1px 0 white;
+ }
  
-
  ul {
-
+ 
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -128,9 +102,9 @@ body {
     font-size: 20px;
  
  }
-
+ 
  .btn-login-subscribe {
-
+    display: inline-block;
     width: 100%;
     max-width: 180px;
     height: 50px;
@@ -159,6 +133,80 @@ body {
     color: white;
  
  }
+ 
+ #subscribe-box {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 135px;
+    background-color: #300138;
+    border-radius: 30px;
+    top: 70px;
+    left: 74.2%;
+ }
+ 
+ .login {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+ }
+ 
+ .login button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JockeyOne';
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    position: fixed;
+    top: 95px;
+    left: 75.5%;
+    background-color: #d325f1;
+    text-decoration: none;
+    box-shadow: none;
+    border: 1px solid #d325f1;
+    font-size: 20px;
+    
+ }
+ 
+ .login p {
+    display: inline;
+    color: white;
+    font-family: 'Jomhuria';
+    font-size: 25px;
+    margin-right: 5px;
+    position: fixed;
+    top: 170px;
+    left: 75.8%;
+ }
+ 
+ .login .entrar-but {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .login .criar-account {
+    display: flex;
+    position: relative;
+    top: 101px;
+    left: 85%;
+    text-decoration: none;
+    color: rgb(255, 3, 255);
+    font-family: 'jomhuria';
+    font-size: 25px;
+ }
+ 
 .slider{
     
 margin: 0 430px;

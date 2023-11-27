@@ -131,9 +131,6 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function (event) {
         event.preventDefault();
 
-        
-
-        
         showSuccessMessage('Inscrição realizada com sucesso!');
     });
 
