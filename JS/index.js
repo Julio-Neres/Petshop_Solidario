@@ -145,8 +145,14 @@ document.addEventListener('DOMContentLoaded', function () {
             mensagemSucesso.style.display = 'none';
         }, 3000); 
     }
+
 });
 
+document.getElementById('entrar-but').addEventListener('click', function() {
+    localStorage.setItem('jumpLogin', true);
+
+    window.location.href = 'login-cadastro.html';
+})
 
 
 
