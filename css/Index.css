@@ -1570,3 +1570,50 @@ footer {
    font-size: 20px;
    color: #300138;
 }
+
+
+body, html {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden; /* Para esconder barras de rolagem horizontais */
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   max-width: 100%; /* Garante que a largura não ultrapasse a largura da tela */
+   overflow: hidden; /* Certifica-se de que nada ultrapasse as bordas da tela */
+}
+
+.container img {
+   width: 70%; /* Faz com que a imagem ocupe 100% da largura do contêiner */
+   height: auto;
+   border-radius: 25%;
+   margin-inline-start: 200px;
+}
+
+/* Estilize o anúncio conforme necessário */
+#anuncio {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(255, 255, 255, 0.7);
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+/* Animação para rolar o anúncio horizontalmente */
+@keyframes scroll {
+   0% {
+       transform: translateX(100%);
+   }
+   100% {
+       transform: translateX(-100%);
+   }
+}
+
+#anuncio {
+   animation: scroll 10s linear infinite; /* Ajuste a duração da animação conforme necessário */
+}

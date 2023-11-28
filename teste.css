@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden; /* Garante que o conteúdo rolante não ultrapasse os limites do contêiner */
+}
+
+.anuncio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+    animation: rolar 10s linear infinite; /* Ajuste a duração conforme necessário */
+}
+
+@keyframes rolar {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
