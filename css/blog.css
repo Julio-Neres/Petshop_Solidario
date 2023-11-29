@@ -656,7 +656,7 @@ pre#adocaoresponsavel{
             align-items: center;
             margin-right: 5px;
             margin-left: -9px;
-            margin-top: 2px;
+            margin-top: 16px;
          }
          
          .newslleter {
@@ -689,7 +689,7 @@ pre#adocaoresponsavel{
             align-items: center;
             width: 202px;
             height: 50px;
-            margin-top: 20px;
+            margin-top: 10px;
             text-align: center;
             left: 20px;
          
@@ -704,7 +704,7 @@ pre#adocaoresponsavel{
             align-items: center;
             justify-content: center;
             left: 40px;
-            top: 18px;
+            top: 10px;
          
          }
          
@@ -714,7 +714,7 @@ pre#adocaoresponsavel{
             color: #292D32;
             font-family: 'JockeyOne';
             left: 10%;
-            top: 21px;
+            top: 11px;
          
          }
          
