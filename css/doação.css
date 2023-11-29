@@ -193,7 +193,7 @@ ul li a {
    font-size: 25px;
    margin-right: 5px;
    position: fixed;
-   top: 170px;
+   top: 146px;
    left: 75.8%;
 }
 
@@ -219,239 +219,6 @@ ul li a {
    font-family: 'jomhuria';
    font-size: 25px;
 }
-
- footer {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
- 
- }
- 
- .information-work {
- 
-    display: flex;
-    width: 1080px;
-    height: 84px;
-    background-color: #CD3EFF;
-    border-radius: 30px;
-    margin-top: 20px;
-    font-family: 'JockeyOne';
-    color: #292D32;
- 
- }
- 
- .space {
- 
-    width: 220px;
-    height: 40px;
-    display: flex;
-    margin-left: 50px;
-    margin-top: 20px;
- }
- 
- 
- .image-container {
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .image-container1 {
- 
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- 
- .image-container1 img {
-    width: 70px;
-    height: auto;
-    margin-bottom: 14px;
- }
- 
- .image-container img {
- 
-    width: 50px;
-    height: auto;
- 
- }
- 
- .text-entregas1 {
- 
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
- 
- }
- 
- .text-entregas2 {
-    display: flex;
-    align-items: center;
-    margin-right: 5px;
-    margin-left: -9px;
-    margin-top: 2px;
- }
- 
- .newslleter {
- 
-    display: flex;
-    width: 1080px;
-    height: 84px;
-    background-color: #B242E7;
-    border-radius: 30px;
- 
- }
- 
- .newslleter img {
- 
-    position: relative;
-    width: 75px;
-    height: auto;
-    display: flex;
-    margin-left: 35px;
-    left: 20px;
- 
- }
- 
- .newslleter .text-email {
- 
-    position: relative;
-    color: #292D32;
-    font-family: 'JockeyOne';
-    justify-content: center;
-    align-items: center;
-    width: 202px;
-    height: 50px;
-    margin-top: 20px;
-    text-align: center;
-    left: 20px;
- 
- }
- 
- .newslleter .barra-divisão {
- 
-    position: relative;
-    width: 2px;
-    height: 45px;
-    background-color: #292D32;
-    align-items: center;
-    justify-content: center;
-    left: 40px;
-    top: 18px;
- 
- }
- 
- .text-news {
- 
-    position: relative;
-    color: #292D32;
-    font-family: 'JockeyOne';
-    left: 10%;
-    top: 21px;
- 
- }
- 
- .formulario {
- 
-    position: relative;
-    top: 30px;
-    left: 140px;
-    text-align: center;
- 
- }
- 
- .formulario input[type="email"] {
- 
-    width: 300px;
-    padding: 8px;
-    border-radius: 30px;
-    border: 1px solid white;
-    text-align: left;
- 
- }
- 
- .formulario button {
- 
-    position: relative;
-    padding: 2px 2px;
-    border-radius: 30px;
-    border: 1px solid #292d32;
-    width: 90px;
-    background-color: #292D32;
-    color: white;
-    font-family: 'JockeyOne';
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    right: 50px;
- }
- 
- .work-info {
- 
-    display: flex;
-    width: 1080px;
-    height: 177px;
-    background-color: #7F0094;
-    border-radius: 30px;
- }
- 
- .logo-insta {
- 
-    width: 70px;
-    height: 70px;
-    display: flex;
-    margin-top: 5%;
- }
- 
- .cicle1 {
-    width: 120px;
-    height: 90px;
-    display: inline-block;
-    justify-content: space-around;
-    align-items: right;
-    margin-top: 20px;
-    margin-left: 40px;
- }
- 
- .name_space {
-    width: 150px;
-    height: 40px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 25px;
- }
- 
- .name_space h1 {
-    font-family: 'JockeyOne';
-    color: #e4a546;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow:
-       -1px -1px 0 white,
-       1px -1px 0 white,
-       -1px 1px 0 white,
-       1px 1px 0 white;
- }
- 
- .cicle1 img {
-    margin-left: 40px;
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
-    display: flex;
- 
- }
- 
- .text-reserved {
-    font-family: 'JockeyOne';
-    font-size: 20px;
-    color: #300138;
- }
 
  .mobile-image {
     position: fixed;
@@ -480,7 +247,7 @@ h1{
 
 
 .container-carousel1 {
-    width: 27%;
+    width: 20%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -493,7 +260,7 @@ h1{
 }
 
 .container-carousel2 {
-   width: 27%;
+   width: 20%;
    margin: 0 auto;
    overflow: hidden;
    position: relative;
@@ -506,7 +273,7 @@ h1{
 }
 
 .container-carousel3 {
-   width: 27%;
+   width: 20%;
    margin: 0 auto;
    overflow: hidden;
    position: relative;
@@ -725,7 +492,7 @@ footer {
    align-items: center;
    width: 202px;
    height: 50px;
-   margin-top: 20px;
+   margin-top: 10px;
    text-align: center;
    left: 20px;
 
@@ -740,7 +507,7 @@ footer {
    align-items: center;
    justify-content: center;
    left: 40px;
-   top: 18px;
+   top: 10px;
 
 }
 
@@ -750,7 +517,7 @@ footer {
    color: #292D32;
    font-family: 'JockeyOne';
    left: 10%;
-   top: 21px;
+   top: 10px;
 
 }
 
