@@ -10,6 +10,30 @@ subscribeBox.addEventListener('mouseleave', () => {
         subscribeBox.style.display = 'none';
 });
 
+//main container
+
+const carrosselContainer = document.getElementById('carrosselContainer');
+
+    carrosselContainer.innerHTML += carrosselContainer.innerHTML; 
+
+    function resetCarrossel() {
+        const firstImageWidth = carrosselContainer.firstElementChild.clientWidth;
+        carrosselContainer.style.transition = 'none';
+        carrosselContainer.style.transform = `translateX(-${firstImageWidth}px)`;
+        setTimeout(() => {
+            carrosselContainer.style.transition = '';
+        });
+    }
+
+    carrosselContainer.addEventListener('transitionend', () => {
+        if (carrosselContainer.style.transform === 'translateX(0px)') {
+            resetCarrossel();
+        }
+    });
+
+    resetCarrossel();
+
+
 //animação promotion zoom passando o mouse em cima
 
 const zoomEspaco1 = document.querySelector('.promotion-one');

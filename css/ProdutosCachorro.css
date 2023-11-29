@@ -143,6 +143,7 @@ ul li a {
     border-radius: 30px;
     top: 70px;
     left: 74.2%;
+    z-index: 1;
  }
  
  .login {
@@ -205,78 +206,40 @@ ul li a {
     font-size: 25px;
  }
 
-.banner {
-    display: flex;
-    width: 100%;
-    max-width: 1080px;
-    height: 230px;
-    margin: 30px auto;
+ .carrossel001 {
     border-radius: 30px;
-    background-image: linear-gradient(transparent, 55%, #E9BC37, #E9BC37);
-}
-
-.sub-menu {
+    overflow: hidden;
+    width: 1080px;
+    margin: 20px auto 0;
+ }
+ 
+ .carrossel0001 {
     display: flex;
-    width: 120px;
-    height: 30px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2%;
-    margin-top: 2%;
-}
-
-.sub-menu h6 {
-    font-family: 'JockeyOne';
-    color: white;
-    text-align: center;
-    margin: 0;
-}
-
-.sub-menu a {
-    align-items: center;
-    text-decoration: none;
-    color: #6C106D;
-    text-shadow:
-        -1px -1px 0 #FDF106,
-        1px -1px 0 #FDF106,
-        -1px 1px 0 #FDF106,
-        1px 1px 0 #FDF106;
-    margin: 0;
-}
-
-.sub-menu span {
-    color: #FDF106;
-    margin: 0 10px;
-}
-
-.img-cachorro {
-    display: flex;
-    width: 700px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-}
-
-.img-cachorro img {
-    width: 140px;
-    display: flex;
-}
-
-.img-cachorro .dog-2 {
-    display: flex;
-    transform: scaleX(-1);
-}
-
-.img-cachorro h1 {
-    font-family: 'JockeyOne';
-    color: #FDF106;
-    text-shadow:
-        -2px -2px 0 #6C106D,
-        2px -2px 0 #6C106D,
-        -2px 2px 0 #6C106D,
-        2px 2px 0 #6C106D;
-    text-align: center;
-}
+    animation: carrosselAnimation 30s linear infinite; 
+ }
+ 
+ .carrossel0001 img {
+    width: 100%;
+    height: 400px;
+ }
+ 
+ @keyframes carrosselAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+ }
 
 .custom-select {
     position: relative;

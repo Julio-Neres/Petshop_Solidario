@@ -202,6 +202,7 @@ ul li a {
    border-radius: 30px;
    top: 70px;
    left: 74.2%;
+   z-index: 1;
 }
 
 .login {
@@ -284,78 +285,43 @@ ul li a {
 
 /* conteudo da main */
 
-.patinha {
-
-   width: 100%;
-   max-width: 100px;
-   height: auto;
-   transform: rotate(310deg);
-   filter: blur(1px);
-
-}
-
-.patinha2 {
-
-   width: 100%;
-   max-width: 100px;
-   height: auto;
-   transform: scaleX(-1);
-   margin-top: 20px;
-   transform: rotate(25deg);
-   filter: blur(1px);
-
-}
-
-.text-center {
-
-   text-align: center;
-   position: relative;
-
-}
-
-.one-text {
-
-   color: #FDF106;
-   font-family: 'Jomhuria';
-   font-size: 90px;
-   -webkit-text-stroke: 1.5px black;
-
-}
-
-.second-text {
-
-   margin-top: -35px;
-   color: #E2A746;
-   font-family: 'Jomhuria';
-   font-size: 30px;
-   -webkit-text-stroke: 0.6px black;
-
-}
-
-.tree-text {
-
-   margin-top: -25px;
-   color: #FDF106;
-   font-family: 'Jomhuria';
-   font-size: 90px;
-   -webkit-text-stroke: 1.5px black;
-   line-height: 1;
-
-}
-
-
-.gato-e-cachorro {
-
-   position: relative;
-   width: 100%;
-   max-width: 280px;
-   height: auto;
+.carrossel001 {
    border-radius: 30px;
-   left: 15%;
-   display: flex;
-
+   overflow: hidden;
+   width: 1080px;
+   margin: 20px auto 0;
 }
 
+.carrossel0001 {
+   display: flex;
+   animation: carrosselAnimation 30s linear infinite; 
+}
+
+.carrossel0001 img {
+   width: 100%;
+   height: 400px;
+}
+
+@keyframes carrosselAnimation {
+   0% {
+       transform: translateX(0);
+   }
+   25% {
+       transform: translateX(-100%);
+   }
+   50% {
+       transform: translateX(-200%);
+   }
+   75% {
+       transform: translateX(-300%);
+   }
+   100% {
+       transform: translateX(0);
+   }
+}
+
+
+ 
 
 
 /* balões div */
@@ -483,7 +449,6 @@ ul li a {
    border-radius: 30px;
    top: 32%;
    left: 35%;
-
 }
 
 .blog-image {
@@ -716,7 +681,7 @@ ul li a {
    left: 125px;
    background-image: linear-gradient(#FF6B35 50%, transparent);
    border: 1px solid #FDE400;
-
+   z-index: 1;
 }
 
 .text-balon {
@@ -879,7 +844,7 @@ ul li a {
    left: 125px;
    background-image: linear-gradient(#4275A4 50%, transparent);
    border: 1px solid #71ECFF;
-
+   z-index: 1;
 }
 
 .text-balon2 {
@@ -1053,7 +1018,7 @@ ul li a {
    left: 185px;
    background-image: linear-gradient(#FFC2D1 30%, transparent);
    border: 1px solid #FF003C;
-
+   z-index: 1;
 }
 
 .text-balon3 {
@@ -1220,7 +1185,7 @@ ul li a {
    left: 185px;
    background-image: linear-gradient(#BCBCDA 30%, transparent);
    border: 1px solid #30FFFF;
-
+   z-index: 1;
 }
 
 .text-balon4 {
@@ -1568,51 +1533,4 @@ footer {
    font-family: 'JockeyOne';
    font-size: 20px;
    color: #300138;
-}
-
-
-body, html {
-   margin: 0;
-   padding: 0;
-   overflow-x: hidden; /* Para esconder barras de rolagem horizontais */
-}
-
-.container {
-   position: relative;
-   width: 100%;
-   max-width: 100%; /* Garante que a largura não ultrapasse a largura da tela */
-   overflow: hidden; /* Certifica-se de que nada ultrapasse as bordas da tela */
-}
-
-.container img {
-   width: 70%; /* Faz com que a imagem ocupe 100% da largura do contêiner */
-   height: auto;
-   border-radius: 25%;
-   margin-inline-start: 200px;
-}
-
-/* Estilize o anúncio conforme necessário */
-#anuncio {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   background-color: rgba(255, 255, 255, 0.7);
-   padding: 10px;
-   border: 1px solid #ccc;
-   border-radius: 5px;
-}
-
-/* Animação para rolar o anúncio horizontalmente */
-@keyframes scroll {
-   0% {
-       transform: translateX(100%);
-   }
-   100% {
-       transform: translateX(-100%);
-   }
-}
-
-#anuncio {
-   animation: scroll 10s linear infinite; /* Ajuste a duração da animação conforme necessário */
 }
