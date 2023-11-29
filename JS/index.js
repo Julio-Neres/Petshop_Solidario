@@ -10,6 +10,11 @@ subscribeBox.addEventListener('mouseleave', () => {
         subscribeBox.style.display = 'none';
 });
 
+document.querySelector('.logo').addEventListener('click', function(event) {
+    event.preventDefault(); 
+    window.location.href = '/index.html'; 
+});
+
 //main container
 
 const carrosselContainer = document.getElementById('carrosselContainer');
